@@ -1,7 +1,9 @@
 # Site settings
-title: Humberto Salazar Pacios
+title: Humberto Salazar
+subtitle: web developer
 email: hsalazr@gmail.com
 description: "..."
+author: Humberto Salazar Pacios
 baseurl: ""
 url: "http://hsalazr.github.io"
 twitter_username: hsalazar

@@ -1,0 +1,47 @@
+@import "bootstrap.min.css";
+@import "icons.styl";
+/* Sticky footer styles
+-------------------------------------------------- */
+html
+  position: relative;
+  min-height: 100%;
+
+body
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+
+footer
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+
+  > .container
+    padding-top 18px
+    border-top:2px solid #ccc
+
+.navbar-default
+  background-color: rgba(255, 255, 255, .97);
+  border: none;
+  > .container
+    border-bottom 2px solid #CCC;
+  .navbar-brand
+    &, &:hover, &:focus
+      color #222
+      .small
+        color:#CCC
+  .navbar-nav > li > a
+    &:focus, &:hover
+      color #888
+      background-color transparent
+      border-bottom 2px solid #888
+      margin-bottom -2px
+  .navbar-nav > .active > a
+    &, &:focus, &:hover
+      color #222
+      background-color transparent
+      border-bottom 2px solid #222
+      margin-bottom -2px
+body > .container
+  padding: 60px 15px 0;
