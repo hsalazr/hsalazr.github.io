@@ -1,0 +1,24 @@
+<article class="job">
+
+    <header class="job-header">
+        <h1>{{ page.position }}</h1>
+        <h2><i class="icon icon-gears"></i> {{ page.title }}</h2>
+        <p class="meta small">
+            {% if page.company %}<i class="icon icon-building-o"></i> {{ page.company }}{% endif %}
+            {% if page.location %}  • <i class="icon icon-map-marker"></i> {{ page.location }}{% endif %}
+            {% if page.date-start %} • <i class="icon icon-calendar"></i> {{ page.date-start }}
+                {% if page.date-end %}  - {{ page.date-end }}{% endif %}
+            {% endif %}
+        </p>
+    </header>
+
+    <section class="job-description">
+        {{ content }}
+    </section>
+
+    <aside class="tags">
+        {% for tag in page.tags %}
+        <span class=" label label-default"><i class="icon icon-tag"></i> {{tag}}</span>
+        {% endfor %}
+    </aside>
+</article>

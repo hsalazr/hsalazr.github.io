@@ -12,10 +12,18 @@
         </div>
         <nav class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="/"><i class="icon icon-home"></i> Inicio</a></li>
-                <li><a href="/blog/"><i class="icon icon-bookmark"></i> Blog</a></li>
-                <li><a href="/experiencia/"><i class="icon icon-suitcase"></i> Experiencia</a></li>
-                <li><a href="/contacto/"><i class="icon icon-coffee"></i> Contacto</a></li>
+                <li {% if "/" == page.url %} class="active" {% endif %}>
+                    <a href="/"><i class="icon icon-home"></i> Inicio</a>
+                </li>
+                <li {% if "/blog/" == page.url %} class="active" {% endif %}>
+                    <a href="/blog/"><i class="icon icon-bookmark"></i> Blog</a>
+                </li>
+                <li {% if "/about/" == page.url %} class="active" {% endif %}>
+                    <a href="/about/"><i class="icon icon-suitcase"></i> Sobre Mi</a>
+                </li>
+                <li {% if "/contacto/" == page.url %} class="active" {% endif %}>
+                    <a href="/contacto/"><i class="icon icon-coffee"></i> Contacto</a>
+                </li>
             </ul>
         </nav><!--/.nav-collapse -->
     </div>

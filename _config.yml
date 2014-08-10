@@ -8,7 +8,8 @@ baseurl: ""
 url: "http://hsalazr.github.io"
 twitter_username: hsalazar
 github_username:  hsalazr
-
+collections:
+ - jobs
 # Build settings
 markdown: kramdown
 permalink: pretty

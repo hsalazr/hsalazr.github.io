@@ -4,8 +4,14 @@
 -------------------------------------------------- */
 color-primary = #3D4A5D
 color-secondary = #94C53E
-color-primary-lt = lighten(color-primary,50)
-color-secondary-lt = lighten(color-secondary,30)
+color-primary-lt = lighten(color-primary, 50)
+color-secondary-lt = lighten(color-secondary, 30)
+
+a
+  color color-secondary
+  &:hover, &:focus
+    text-decoration none
+    color color-secondary-lt
 
 html
   position: relative;
@@ -25,9 +31,10 @@ footer
   > .container
     color color-primary-lt
     padding-top 18px
-    border-top:2px solid color-primary-lt
+    border-top: 2px solid color-primary-lt
+
 .navbar-default
-  background-color: rgba(255, 255, 255, .97);
+  background-color: rgba(255, 255, 255, .94);
   border: none;
   > .container
     border-bottom 2px solid color-primary-lt
@@ -35,7 +42,7 @@ footer
     &, &:hover, &:focus
       color color-primary
       .small
-        color:color-secondary
+        color: color-secondary
   .navbar-nav > li > a
     text-transform uppercase
     color color-primary-lt
@@ -52,5 +59,55 @@ footer
       margin-bottom -2px
       .icon
         color color-secondary
+
 body > .container
   padding: 60px 15px 0;
+
+.main-content {
+  > section {
+    &:last-child {
+      margin-bottom 60px
+    }
+    > h1 {
+      font-size 28px
+      border-bottom 1px solid color-primary
+      padding-bottom 8px
+    }
+    article {
+      border-bottom 1px solid color-primary-lt
+      padding-bottom 20px
+      margin-bottom 30px
+      &:last-child {
+        border-bottom none
+        margin-bottom 0
+      }
+      h1 {
+        font-size 24px
+        margin-bottom 10px
+      }
+      h2 {
+        color: color-secondary
+        margin-top 10px
+        font-size 16px
+      }
+      .meta {
+        color color-primary-lt
+        a{
+          color color-primary-lt
+          &:hover, &:focus{
+            color color-primary
+          }
+        }
+      }
+    }
+    .tags {
+      .label-default {
+        background-color color-primary-lt
+        &:hover {
+          cursor pointer
+          color color-primary
+        }
+      }
+    }
+  }
+}

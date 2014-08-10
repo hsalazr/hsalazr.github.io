@@ -557,6 +557,14 @@
 }
 /* Sticky footer styles
 -------------------------------------------------- */
+a {
+  color: #94c53e;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: #d5e8b4;
+}
 html {
   position: relative;
   min-height: 100%;
@@ -578,7 +586,7 @@ footer > .container {
   border-top: 2px solid #c2cbd7;
 }
 .navbar-default {
-  background-color: rgba(255,255,255,0.97);
+  background-color: rgba(255,255,255,0.94);
   border: none;
 }
 .navbar-default > .container {
@@ -620,4 +628,47 @@ footer > .container {
 }
 body > .container {
   padding: 60px 15px 0;
+}
+.main-content > section:last-child {
+  margin-bottom: 60px;
+}
+.main-content > section > h1 {
+  font-size: 28px;
+  border-bottom: 1px solid #3d4a5d;
+  padding-bottom: 8px;
+}
+.main-content > section article {
+  border-bottom: 1px solid #c2cbd7;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+.main-content > section article:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+.main-content > section article h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.main-content > section article h2 {
+  color: #94c53e;
+  margin-top: 10px;
+  font-size: 16px;
+}
+.main-content > section article .meta {
+  color: #c2cbd7;
+}
+.main-content > section article .meta a {
+  color: #c2cbd7;
+}
+.main-content > section article .meta a:hover,
+.main-content > section article .meta a:focus {
+  color: #3d4a5d;
+}
+.main-content > section .tags .label-default {
+  background-color: #c2cbd7;
+}
+.main-content > section .tags .label-default:hover {
+  cursor: pointer;
+  color: #3d4a5d;
 }

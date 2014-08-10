@@ -1,0 +1,57 @@
+---
+layout: default
+---
+<section class="profile">
+    <h1>Perfil</h1>
+
+    <div class="row">
+        <article class="profile-description col-md-10 col-md-offset-2">
+            <p class="lead">Diseño y Desarrollo de <strong>Soluciones Web</strong>. Especializado en la <strong>Capa de
+                Interfaz
+                de Usuario (UI)</strong> y <strong>Experiencia de Usuario (UX).</strong></p>
+        </article>
+    </div>
+</section>
+<section class="formacion">
+    <h1>Formaci&oacute;n</h1>
+
+    <div class="row">
+        <article class="study col-md-10 col-md-offset-2">
+            <h1><i class="icon icon-mortar-board"></i> Ingenier&iacute;a en Ciencias Inform&aacute;ticas</h1>
+
+            <h2><i class="icon icon-institution"></i> <a href="http://www.uci.cu/">Universidad de las Ciencias
+                Informáticas</a></h2>
+
+            <p class="meta small"><i class="icon icon-map-marker"></i> La Habana, Cuba • <i
+                    class="icon icon-calendar"></i> 2009</p>
+        </article>
+        <article class="study col-md-10 col-md-offset-2">
+            <h1><i class="icon icon-language"></i> Conocimientos de Idiomas</h1>
+            <ul class="list-unstyled">
+                <li title="Nativo"><i class="icon icon-star"></i><i class="icon icon-star"></i><i class="icon icon-star"></i> Espa&ntilde;ol  </li>
+                <li title="Medio"><i class="icon icon-star"></i><i class="icon icon-star"></i><i class="icon icon-star-o"></i> Ingl&eacute;s </li>
+            </ul>
+        </article>
+    </div>
+</section>
+<section class="experiencia">
+    <h1>Experiencia</h1>
+
+    <div class="row">
+        <div class="col-md-10 col-md-offset-2">
+            {% for job in site.jobs limit:10 %}
+            {{job.output}}
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<section class="habilidades">
+    <h1>Habilidades</h1>
+
+    <div class="row">
+        <div class="col-md-10 col-md-offset-2">
+            ...
+        </div>
+    </div>
+</section>

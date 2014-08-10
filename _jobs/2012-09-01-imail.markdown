@@ -1,0 +1,26 @@
+---
+layout: job
+position: "Desarrollador de Front-end"
+title:  "iMailUnlimited & iMailTools"
+company: '<a href="http://www.bitsteer.com">BitSteer</a>'
+location: "Zagreb, Croacia"
+date-start: 2012
+tags:
+ - Twitter Bootstrap 2
+ - HTML5
+ - CSS3
+ - LESS
+ - JavaScript
+ - JSON
+ - AJAX
+ - jQuery
+ - Python
+ - Django
+ - PHP
+ - Wordpress
+ - SVN
+ - Trac
+ - Git
+---
+
+Servicio de administración de SMTP y gestión de campañas publicitarias por correo electrónico.
