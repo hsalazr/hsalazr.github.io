@@ -92,9 +92,9 @@ body > .container
       }
       .meta {
         color color-primary-lt
-        a{
+        a {
           color color-primary-lt
-          &:hover, &:focus{
+          &:hover, &:focus {
             color color-primary
           }
         }
@@ -111,3 +111,34 @@ body > .container
     }
   }
 }
+
+@media (max-width: 768px) {
+  .navbar-header {
+    float left
+  }
+
+  .navbar-brand {
+
+    margin-top -4px;
+    .small {
+      display block;
+    }
+  }
+
+  .nav.navbar-nav {
+    float right
+    clear none
+    font-size 24px
+    margin-right 0
+    > li, > li.active {
+      display inline-block
+      > a {
+        &, &:focus, &:hover {
+          border-bottom none
+          margin-bottom 0
+        }
+      }
+    }
+  }
+}
+
