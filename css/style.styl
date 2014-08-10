@@ -2,6 +2,11 @@
 @import "icons.styl";
 /* Sticky footer styles
 -------------------------------------------------- */
+color-primary = #3D4A5D
+color-secondary = #94C53E
+color-primary-lt = lighten(color-primary,50)
+color-secondary-lt = lighten(color-secondary,30)
+
 html
   position: relative;
   min-height: 100%;
@@ -18,30 +23,34 @@ footer
   height: 60px;
 
   > .container
+    color color-primary-lt
     padding-top 18px
-    border-top:2px solid #ccc
-
+    border-top:2px solid color-primary-lt
 .navbar-default
   background-color: rgba(255, 255, 255, .97);
   border: none;
   > .container
-    border-bottom 2px solid #CCC;
+    border-bottom 2px solid color-primary-lt
   .navbar-brand
     &, &:hover, &:focus
-      color #222
+      color color-primary
       .small
-        color:#CCC
+        color:color-secondary
   .navbar-nav > li > a
+    text-transform uppercase
+    color color-primary-lt
     &:focus, &:hover
-      color #888
+      color color-secondary-lt
       background-color transparent
-      border-bottom 2px solid #888
+      border-bottom 2px solid color-secondary-lt
       margin-bottom -2px
   .navbar-nav > .active > a
     &, &:focus, &:hover
-      color #222
+      color color-secondary
       background-color transparent
-      border-bottom 2px solid #222
+      border-bottom 2px solid color-secondary
       margin-bottom -2px
+      .icon
+        color color-secondary
 body > .container
   padding: 60px 15px 0;
