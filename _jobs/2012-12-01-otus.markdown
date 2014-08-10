@@ -1,0 +1,26 @@
+---
+layout: job
+position: "Arquitecto Senior y Desarrollador de Front-end"
+title:  "Otus: Complete SIEM Solution"
+company: '<a href="http://www.bitsteer.com">BitSteer</a>'
+location: "Zagreb, Croacia"
+date-start: 2012
+date-end: 2013
+tags:
+ - Twitter Bootstrap 2
+ - HTML 5
+ - CSS 3
+ - LESS
+ - JavaScript
+ - JSON
+ - AJAX
+ - jQuery
+ - Java
+ - Struts 2
+ - Maven
+ - SVN
+ - Trac
+ - Git
+---
+
+Sistema de gestión para el almacenamiento de información de servidores, aplicaciones y redes en una localización centralizada.

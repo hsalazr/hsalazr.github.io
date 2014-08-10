@@ -1,0 +1,24 @@
+---
+layout: job
+position: "Diseñador y Desarrollador"
+title: "BitSteer Web Site"
+company: '<a href="http://www.bitsteer.com">BitSteer</a>'
+location: "Zagreb, Croacia"
+date-start: 2013
+tags:
+ - Twitter Bootstrap 3
+ - HTML 5
+ - CSS 3
+ - LESS
+ - JavaScript
+ - JSON
+ - AJAX
+ - jQuery
+ - Jekyll
+ - Ruby
+ - SVN
+ - Trac
+ - Git
+---
+
+Diseño e implementación del sitio web corporativo de la empresa BitSteer.

@@ -1,0 +1,18 @@
+---
+layout: job
+position: "Diseñador y Desarrollador"
+title: "Web Coprporativa: Grupo El Dorado"
+company: "Grupo El Dorado"
+location: "Mexico"
+date-start: 2013
+tags:
+ - Twitter Bootstrap 3
+ - HTML 5
+ - CSS 3
+ - LESS
+ - JavaScript
+ - PHP
+ - Drupal
+---
+
+Diseño e implementación del sitio web corporativo de Grupo El Dorado. Despliegue de la solución en el servidor de hosting del cliente.

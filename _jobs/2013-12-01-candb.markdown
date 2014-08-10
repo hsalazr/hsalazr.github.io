@@ -1,0 +1,23 @@
+---
+layout: job
+position: "Diseñador y Desarrollador de front-end y back-end"
+title: "Sistema CANDB"
+company: "<a href='www.bitsteer.com'>BitSteer</a>"
+location: "Zagreb, Croacia"
+date-start: 2013
+date-end: 2014
+tags:
+ - Twitter Bootstrap 3
+ - HTML 5
+ - CSS 3
+ - LESS
+ - JavaScript
+ - jQuery
+ - Python
+ - Django
+ - SVN
+ - Trac
+ - Git
+---
+
+Actualización del sistema usado por el gobierno de Croacia como parte su programa para la detección temprana del cáncer de colon.
