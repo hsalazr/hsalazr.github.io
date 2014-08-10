@@ -634,11 +634,10 @@ body > .container {
 }
 .main-content > section > h1 {
   font-size: 28px;
-  border-bottom: 1px solid #3d4a5d;
+  border-bottom: 1px solid #c2cbd7;
   padding-bottom: 8px;
 }
 .main-content > section article {
-  border-bottom: 1px solid #c2cbd7;
   padding-bottom: 20px;
   margin-bottom: 30px;
 }
