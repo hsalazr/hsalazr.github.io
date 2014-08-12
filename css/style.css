@@ -690,6 +690,9 @@ article.post {
 .social li a:focus i.icon.icon-skype {
   color: #00aae7;
 }
+.post-flow {
+  padding-right: 45px;
+}
 .sidebar {
   color: #444;
   border-left: 1px solid #d5e8b4;

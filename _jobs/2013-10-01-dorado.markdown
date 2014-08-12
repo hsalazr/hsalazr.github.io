@@ -1,7 +1,7 @@
 ---
 layout: job
 position: "Diseñador y Desarrollador"
-title: "Web Coprporativa: Grupo El Dorado"
+title: "Web Corporativa: Grupo El Dorado"
 company: "Grupo El Dorado"
 location:
  city: "Mexico DF"
