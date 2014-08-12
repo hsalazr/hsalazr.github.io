@@ -1,0 +1,30 @@
+{
+    "name": "Humberto Salazar Pacios",
+    "profession": "Ingeniero Informático",
+    "description": "Diseño y Desarrollo de Soluciones Web. Especializado en la Capa de Interfaz de Usuario (UI) y Experiencia de Usuario (UX).",
+    "location": {
+        "country" :{
+            "name":"Cuba",
+            "code": "cu"
+        },
+        "city": "La Habana"
+    },
+    "job":{
+        "title": "Desarrollador Web",
+        "join": "en",
+        "company":{
+            "name":"Autofact Chile SpA",
+            "url": "http://www.autofact.cl",
+            "logo": "autofact.png"
+        }
+
+    }
+}
+/*
+
+email: hsalazr@gmail.com
+skype: humberto.salazarpacios
+facebook: http://www.facebook.com/hsalazarpacios
+linkedin:
+*/
+

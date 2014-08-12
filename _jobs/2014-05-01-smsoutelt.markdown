@@ -3,7 +3,10 @@ layout: job
 position: "Desarrollador de front-end y back-end"
 title: "OutletSMS Web Site"
 company: "Imubcs"
-location: "Miami, USA"
+location:
+ city: "Miami FL"
+ country: "Estados Unidos de América"
+ code: "us"
 date-start: 2014
 tags:
  - Twitter Bootstrap 3

@@ -21,7 +21,15 @@ layout: default
 
     <div class="row">
         <div class="col-md-10 col-md-offset-2">
-            ...
+            {% for skill in site.data.skills %}
+                <p>{{ skill.text }}
+                <aside class="tags">
+                {% for tag in skill.tags %}
+                    <span class=" label label-default"><i class="icon icon-tag"></i> {{tag}}</span>
+                {% endfor %}
+                </aside>
+                </p>
+            {% endfor %}
         </div>
     </div>
 </section>

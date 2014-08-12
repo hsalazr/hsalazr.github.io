@@ -1,4 +1,21 @@
 ---
-layout: default
+layout: default_sidebar
 ---
-
+<section class="posts">
+{% for post in site.posts %}
+<article class="post">
+    <header class="post-header">
+        <h1>{{ post.title }}</h1>
+        <p class="meta small">
+            <i class="icon icon-calendar"></i>
+                {{ post.date | date_to_long_string }}
+                {% if post.author %} • {{ post.author }}{% endif %}
+                {% if post.meta %} • {{ post.meta }}{% endif %}
+        </p>
+    </header>
+    <article class="post-content">
+        {{ post.content }}
+    </article>
+</article>
+{% endfor %}
+</section>

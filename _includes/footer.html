@@ -1,5 +1,16 @@
 <footer>
-    <div class="container">
-        <p class="text-muted">{{site.email}}</p>
+    <div class="container ">
+        <div class="row">
+            <div class="col-md-8 hidden-xs hidden-sm">
+                <p class="text-muted small">Este sitio existe gracias a: HTML5 / CSS3 / Twitter Bootstrap 3 / Jekyll / Stylus / GitHub / Fontawesome / Icomoon </p>
+            </div>
+            <div class="col-md-4">
+                <ul class="pull-right list-inline social">
+                    {% for slink in site.data.social_links %}
+                        <li><a href="{{ slink.link }}" target="_blank"><i class="icon icon-{{ slink.type }}"></i></a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
     </div>
 </footer>

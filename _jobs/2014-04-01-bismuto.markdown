@@ -3,7 +3,10 @@ layout: job
 position: "Diseñador y Desarrollador de front-end y back-end"
 title: "Bismuto Escolar"
 company: "BismutoSoft"
-location: "Luanda, Angola"
+location:
+ city: "Luanda"
+ country: "Angola"
+ code: "ao"
 date-start: 2014
 tags:
  - Twitter Bootstrap 3

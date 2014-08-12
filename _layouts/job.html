@@ -5,7 +5,8 @@
         <h2><i class="icon icon-gears"></i> {{ page.title }}</h2>
         <p class="meta small">
             {% if page.company %}<i class="icon icon-building-o"></i> {{ page.company }}{% endif %}
-            {% if page.location %}  • <i class="icon icon-map-marker"></i> {{ page.location }}{% endif %}
+            {% if page.location.city %}  • <i class="icon icon-map-marker"></i> {{ page.location.city }}{% endif %}
+            {% if page.location.country %}  • <img class="flag" src="/img/flags/{{ page.location.code }}.gif "> {{ page.location.country }}{% endif %}
             {% if page.date-start %} • <i class="icon icon-calendar"></i> {{ page.date-start }}
                 {% if page.date-end %}  - {{ page.date-end }}{% endif %}
             {% endif %}

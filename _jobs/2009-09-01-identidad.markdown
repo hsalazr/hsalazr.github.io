@@ -3,7 +3,10 @@ layout: job
 position: "Arquitecto Líder y Desarrollador"
 title:  "Sistema Único de Identificación Nacional de la República de Cuba"
 company: "MININT"
-location: "La Habana, Cuba"
+location:
+ city: "La Habana"
+ country: "Cuba"
+ code: "cu"
 date-start: 2009
 date-end: 2012
 tags:

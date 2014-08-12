@@ -654,22 +654,84 @@ body > .container {
   margin-top: 10px;
   font-size: 16px;
 }
-.main-content > section article .meta {
+article.post {
+  margin-bottom: 60px;
+}
+.meta {
   color: #c2cbd7;
 }
-.main-content > section article .meta a {
+.meta a {
   color: #c2cbd7;
 }
-.main-content > section article .meta a:hover,
-.main-content > section article .meta a:focus {
+.meta a:hover,
+.meta a:focus {
   color: #3d4a5d;
 }
-.main-content > section .tags .label-default {
+.tags .label-default {
   background-color: #c2cbd7;
 }
-.main-content > section .tags .label-default:hover {
+.tags .label-default:hover {
   cursor: pointer;
   color: #3d4a5d;
+}
+.social li a {
+  font-size: 14px;
+  color: #c2cbd7;
+}
+.social li a:hover,
+.social li a:focus {
+  color: #3d4a5d;
+}
+.social li a:hover i.icon.icon-rss,
+.social li a:focus i.icon.icon-rss {
+  color: #d58512;
+}
+.social li a:hover i.icon.icon-skype,
+.social li a:focus i.icon.icon-skype {
+  color: #00aae7;
+}
+.sidebar {
+  color: #444;
+  border-left: 1px solid #d5e8b4;
+  border-top: 1px solid #d5e8b4;
+  padding-left: 30px;
+  padding-top: 20px;
+  margin-top: -10px;
+  margin-bottom: -2px;
+}
+.sidebar .widget {
+  padding-bottom: 12px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #d5e8b4;
+  margin-left: -30px;
+  padding-left: 30px;
+}
+.sidebar .widget:last-child {
+  border: none;
+}
+.sidebar .widget aside {
+  margin-top: 8px;
+}
+.sidebar .widget .avatar {
+  padding-right: 0;
+  margin-top: 14px;
+  margin-bottom: 15px;
+}
+.sidebar h1 {
+  font-size: 18px;
+}
+.sidebar h2 {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+.sidebar h3 {
+  margin-top: 8px;
+  font-size: 14px;
+}
+img.flag {
+  margin-top: -2px;
+  width: 16px;
+  height: 11px;
 }
 @media (max-width: 768px) {
   .navbar-header {

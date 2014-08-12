@@ -3,7 +3,10 @@ layout: job
 position: "Diseñador y Desarrollador"
 title: "Web Coprporativa: Grupo El Dorado"
 company: "Grupo El Dorado"
-location: "Mexico"
+location:
+ city: "Mexico DF"
+ country: "Mexico"
+ code: "mx"
 date-start: 2013
 tags:
  - Twitter Bootstrap 3

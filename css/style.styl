@@ -90,28 +90,97 @@ body > .container
         margin-top 10px
         font-size 16px
       }
-      .meta {
-        color color-primary-lt
-        a {
-          color color-primary-lt
-          &:hover, &:focus {
-            color color-primary
+
+    }
+
+  }
+}
+article.post{
+  margin-bottom 60px
+}
+.meta {
+  color color-primary-lt
+  a {
+    color color-primary-lt
+    &:hover, &:focus {
+      color color-primary
+    }
+  }
+}
+.tags {
+  .label-default {
+    background-color color-primary-lt
+    &:hover {
+      cursor pointer
+      color color-primary
+    }
+  }
+}
+.social{
+  li{
+    a{
+      font-size 14px
+      color:color-primary-lt
+      &:hover,&:focus{
+        color: color-primary
+        i.icon{
+          &.icon-rss{
+            color #d58512
+          }
+          &.icon-skype{
+            color rgb(0,170,231);
           }
         }
       }
-    }
-    .tags {
-      .label-default {
-        background-color color-primary-lt
-        &:hover {
-          cursor pointer
-          color color-primary
-        }
-      }
+
     }
   }
 }
 
+.sidebar{
+  color:#444444
+  border-left: 1px solid color-secondary-lt
+  border-top: 1px solid color-secondary-lt
+  padding-left 30px
+  padding-top 20px
+  margin-top -10px
+  margin-bottom -2px
+  .widget{
+    padding-bottom 12px
+    margin-bottom  12px
+    border-bottom 1px solid color-secondary-lt
+    margin-left -30px
+    padding-left 30px
+    &:last-child{
+      border none
+    }
+    aside{
+      margin-top 8px
+    }
+    .avatar{
+      padding-right: 0;
+      margin-top: 14px;
+      margin-bottom: 15px;
+    }
+  }
+  h1{
+    font-size:18px
+  }
+  h2{
+
+    font-size:16px
+    margin-bottom 8px
+  }
+  h3{
+    margin-top 8px
+    font-size:14px
+  }
+}
+img.flag {
+  margin-top: -2px;
+  width: 16px;
+  height: 11px;
+}
 @media (max-width: 768px) {
   .navbar-header {
     float left

@@ -3,7 +3,10 @@ layout: job
 position: "Desarrollador de front-end y back-end"
 title: "Autofact: Módulo de Informes de Precio"
 company: "<a href='http://www.autofact.cl' />Autofact Chile SpA</a>"
-location: "Santiago RM, Chile"
+location:
+ city: "Santiago RM"
+ country: "Chile"
+ code: "cl"
 date-start: 2014
 date-end: "<strong>ACTUALIDAD</strong>"
 tags:
