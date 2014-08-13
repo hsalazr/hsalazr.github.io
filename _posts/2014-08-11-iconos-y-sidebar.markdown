@@ -12,6 +12,6 @@ de [FAMFAMFAM][flags] para identificar los paises de origen de las empresas con 
 
 ![](</img/posts/2014/08/iconos-paises.png>)
 
-Como pueden ver en el ejemplo anterior, es un detalle discreto, pero queda chulo :)
+Como pueden ver en el ejemplo anterior, es un detalle discreto, pero queda chulo :smile:
 
 [flags]: http://www.famfamfam.com/lab/icons/flags/

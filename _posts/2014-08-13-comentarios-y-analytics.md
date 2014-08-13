@@ -11,7 +11,7 @@ Acabo de registrar el sitio en [Google Analytics][ga] y [Google Webmasters Tools
 
 Otro paso de avance es el hecho de haber habilitado la posibilidad de comentar gracias a [Disqus][disqus]. Este blog está generado 100% con Jekyll por lo tanto su contenido es completamente estático, de ahí la necesidad de usar [Disqus][disqus] para los comentarios.
 
-La integración fue realmente simple (más de lo que esperaba :) ). Incluso desde el punto de vista visual quedó muy bien sin tener que hacer prácticamente nada.
+La integración fue realmente simple (más de lo que esperaba :sweat_smile: ). Incluso desde el punto de vista visual quedó muy bien sin tener que hacer prácticamente nada.
 
 Así que ya saben... a comentar y nos vemos pronto con más updates.
 
