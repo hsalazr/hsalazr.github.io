@@ -3,20 +3,47 @@ layout: default_sidebar
 permalink: /
 ---
 <section class="posts">
-{% for post in site.posts %}
-<article class="post">
-    <header class="post-header">
-        <h1><a href="{{post.url}}">{{ post.title }}</a></h1>
-        <p class="meta small">
-            <i class="icon icon-calendar"></i>
-                {{ post.date | date_to_long_string }}
-                {% if post.author %} • {{ post.author }}{% endif %}
+    {% for post in site.posts %}
+    <article class="post">
+        <header class="post-header">
+            <h1><a href="{{post.url}}">{{ post.title }}</a></h1>
+
+            <p class="meta small">
+                <i class="icon icon-calendar"></i>
+                {% assign m = post.date | date: "%-m" %}
+                {{ post.date | date: "%-d" }}
+                {% case m %}
+                {% when '1' %}Enero
+                {% when '2' %}Febrero
+                {% when '3' %}Marzo
+                {% when '4' %}Abril
+                {% when '5' %}Mayo
+                {% when '6' %}Junio
+                {% when '7' %}Julio
+                {% when '8' %}Agosto
+                {% when '9' %}Septiembre
+                {% when '10' %}Octubre
+                {% when '11' %}Noviembre
+                {% when '12' %}Diciembre
+                {% endcase %}
+                {{ post.date | date: "%Y" }}
+
                 {% if post.meta %} • {{ post.meta }}{% endif %}
-        </p>
-    </header>
-    <article class="post-content">
-        {{ post.content }}
+            </p>
+        </header>
+        <article class="post-content">
+            {{ post.content }}
+        </article>
+        <aside class="row">
+            <div class="col-sm-6">
+                {% if post.author %}
+                <p class="meta small">por: {{ post.author }}</p>
+                {% endif %}
+            </div>
+            <div class="col-sm-6 text-right ">
+                <a href="{{post.url}}#disqus_thread" class="small"><i class="icon icon-comment"></i> Comentarios</i></a>
+            </div>
+        </aside>
     </article>
-</article>
-{% endfor %}
+    {% endfor %}
 </section>
