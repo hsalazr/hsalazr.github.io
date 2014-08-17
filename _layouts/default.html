@@ -7,6 +7,9 @@
         {{ content }}
     </div>
     {% include footer.html %}
+    {% if site.production %}
+        {% include ga.html %}
+    {% endif %}
     </body>
 </html>
 <link rel="stylesheet" href="{{ '/css/cstyles.css' | prepend: site.baseurl }}">
