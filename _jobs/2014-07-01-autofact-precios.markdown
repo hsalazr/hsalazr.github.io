@@ -2,24 +2,20 @@
 layout: job
 position: "Desarrollador de front-end y back-end"
 title: "Autofact: Módulo de Informes de Precio"
-company: "<a href='http://www.autofact.cl' />Autofact Chile SpA</a>"
+company: "<a href='http://www.autofact.cl' />Autofact CL</a>"
 location:
  city: "Santiago RM"
  country: "Chile"
  code: "cl"
 date-start: 2014
-date-end: "<strong>ACTUALIDAD</strong>"
+date-end: "<span class='label label-success'><strong>ACTUAL</strong></span>"
 tags:
  - Twitter Bootstrap 3
- - HTML 5
- - CSS 3
  - Stylus
- - JavaScript
- - AJAX
+ - Coffee Script
  - jQuery
  - PHP
  - Code Igniter
- - Composer
  - MySQL
  - Asana
  - Git

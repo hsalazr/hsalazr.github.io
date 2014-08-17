@@ -14,6 +14,9 @@ collections:
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 production: true
+lsi: false
 gems:
  - jekyll-sitemap
  - jemoji
+sass:
+  style: :compressed

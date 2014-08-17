@@ -1,0 +1,9 @@
+<div class="widget current-job">
+    <h1>Proyecto actual</h1>
+    {% assign jobs = (site.collections.jobs.docs | sort: "date-start" | reverse ) %}
+    {% for job in jobs | limit: 1 %}
+    <h2>{{job.position}}</h2>
+    <h3>{{job.title}}</h3>
+    {{job.content}}
+    {% endfor %}
+</div>

@@ -34,7 +34,8 @@ permalink: /
         <article class="post-content">
             {{ post.content }}
         </article>
-        <aside class="row">
+        <aside>
+            <div class="row">
             <div class="col-sm-6">
                 {% if post.author %}
                 <p class="meta small">por: {{ post.author }}</p>
@@ -42,6 +43,7 @@ permalink: /
             </div>
             <div class="col-sm-6 text-right ">
                 <a href="{{post.url}}#disqus_thread" class="small"><i class="icon icon-comment"></i> Comentarios</i></a>
+            </div>
             </div>
         </aside>
     </article>

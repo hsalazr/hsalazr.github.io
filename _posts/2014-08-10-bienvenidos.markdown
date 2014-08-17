@@ -14,5 +14,5 @@ web. Además, aquí podrás encontrar [información profesional][about] sobre mi
 
 Te recomiendo suscribirte a mi [canal RSS][feed] para que estés al tanto los futuros updates.
 
-[about]: /about/
-[feed]:  /feed.xml
+[about]: {{ '/about/' | prepend: site.url }}
+[feed]:  {{ '/feed.xml' | prepend: site.url }}

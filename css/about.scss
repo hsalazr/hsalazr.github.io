@@ -1,0 +1,47 @@
+---
+---
+
+@import "paleta";
+section{
+  > h1{
+    font-size: 1.5em;
+    font-weight: normal;
+    color: $color-primary;
+    text-transform: uppercase;
+    border-bottom: 2px solid $color-primary-lt;
+  }
+  article {
+    h1 {
+      font-size: 1.6em;
+    }
+    h2 {
+      font-size: 1.2em;
+      margin-top: 0;
+      color: $color-secondary;
+    }
+  }
+  &#profile{
+    background-color: $color-primary;
+    padding: 30px 30px 15px 30px;
+    color: #FFF;
+    margin-bottom: 20px;
+    border-bottom: 3px solid $color-primary-lt;
+    border-top: 4px solid $color-secondary-lt;
+    article {
+      .avatar{
+        margin-right: 15px;
+        margin-bottom: 15px;
+        padding: 0;
+        margin-top: 2px;
+      }
+      > h1 {
+        color:$color-secondary-lt;
+        margin-top: 0;
+        font-size: 2.4em;
+      }
+      p.lead{
+        margin-bottom: 15px;
+      }
+    }
+  }
+}

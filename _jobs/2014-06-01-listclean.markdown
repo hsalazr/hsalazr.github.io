@@ -10,10 +10,7 @@ location:
 date-start: 2014
 tags:
  - Twitter Bootstrap 3
- - HTML 5
- - CSS 3
  - Stylus
- - JavaScript
  - jQuery
  - Python
  - Django

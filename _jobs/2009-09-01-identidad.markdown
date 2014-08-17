@@ -13,9 +13,6 @@ tags:
  - HTML5
  - CSS3
  - LESS
- - JavaScript
- - JSON
- - AJAX
  - jQuery
  - ASP.NET
  - Microsoft Team System

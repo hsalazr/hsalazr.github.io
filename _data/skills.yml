@@ -1,47 +1,83 @@
 - text: "Tengo amplia experiencia trabajando en UX con las tecnologías:"
-  tags:
-    - Twitter Bootstrap
-    - HTML5
-    - CSS3
-    - jQuery
-    - JSON
-    - WebFonts
-    - LESS
-    - Stylus
-    - Jekyll
-    - Django CMS
-    - Wordpress
-    - Drupal
+  skills:
+    - name: Twitter Bootstrap
+      level: 3
+    - name: HTML5
+      level: 3
+    - name: CSS3
+      level: 3
+    - name: jQuery
+      level: 3
+    - name: JSON
+      level: 3
+    - name: WebFotns
+      level: 3
+    - name: Stylus
+      level: 3
+    - name: LESS
+      level: 3
+    - name: Sass
+      level: 3
+    - name: Coffee Script
+      level: 3
 
 - text: "He trabajado también en las capas inferiores con las tecnologías:"
-  tags:
-    - Django
-    - Node.js
-    - Express
-    - REST
-    - Web Services
-    - PHP
-    - Code Igniter
-    - Java
-    - ASP.NET
-    - MVC.NET
-    - MySQL
-    - Postgres
-    - SQLite
-    - MongoDB
+  skills:
+    - name: Jekyll
+      level: 3
+    - name: Django CMS
+      level: 3
+    - name: Wordpress
+      level: 2
+    - name: Drupal
+      level: 2
+    - name: Django
+      level: 3
+    - name: Node.js
+      level: 2
+    - name: Express
+      level: 2
+    - name: REST
+      level: 3
+    - name: WebServices
+      level: 3
+    - name: PHP
+      level: 3
+    - name: Java
+      level: 1
+    - name: ASP.NET
+      level: 3
+    - name: MVC.NET
+      level: 2
+    - name: MySQL
+      level: 3
+    - name: Postgres
+      level: 2
+    - name: SQLite
+      level: 3
+    - name: MongoDB
+      level: 2
+    - name: Code Igniter
+      level: 3
 
 - text: "Domino los esquemas de trabajo basados en metodologías ágiles así como el uso de herramientas para el control de versiones como:"
-  tags:
-    - Git
-    - SVN
-    - Microsoft Team System
+  skills:
+    - name: Git
+      level: 3
+    - name: Subversion
+      level: 3
+    - name: Microsoft TFS
+      level: 3
 
 - text: "Trabajo sin problemas sobre los Sistemas Operativos"
-  tags:
-    - Windows
-    - Linux
-    - OS X
-
+  skills:
+    - name: OS X
+      level: 3
+    - name: Linux
+      level: 3
+    - name: Windows
+      level: 3
+  
 - text: Me he desempeñado como administrador de sistemas informáticos y tengo conocimientos de hardware.
 - text: Tengo aptitudes para la investigación independiente, solución de problemas, trabajo en equipo, comunicación ínter personal y frente a un auditorio.
 - text: He impartido entrenamiento profesional en temáticas de desarrollo web y tecnologías relacionadas.

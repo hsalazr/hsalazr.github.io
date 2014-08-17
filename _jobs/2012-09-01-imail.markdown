@@ -10,12 +10,7 @@ location:
 date-start: 2012
 tags:
  - Twitter Bootstrap 2
- - HTML5
- - CSS3
  - LESS
- - JavaScript
- - JSON
- - AJAX
  - jQuery
  - Python
  - Django

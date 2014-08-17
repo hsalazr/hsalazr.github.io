@@ -10,12 +10,7 @@ location:
 date-start: 2013
 tags:
  - Twitter Bootstrap 3
- - HTML 5
- - CSS 3
  - LESS
- - JavaScript
- - JSON
- - AJAX
  - jQuery
  - Jekyll
  - Ruby
