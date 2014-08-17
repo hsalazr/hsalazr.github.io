@@ -13,7 +13,7 @@ Llevo un par de días haciendo algunos ajustes al sitio para mejorar su rendimie
 
 En este proceso, me he encontrado con algunas herramientas realmente sencillas y de gran utilidad. Estoy pensando en hacer un post describiendo todo el proceso para montar un sitio como este y optimizarlo hasta el máximo de sus posibilidades.
 
-He cambiando los estilos de varios elementos, y aunque aún no estoy 100% conforme con el resultado veo que ha ido tomando forma.
+He estado cambiando los estilos de varios elementos, y aunque aún no estoy 100% conforme con el resultado veo que ha ido tomando forma.
 
 Los cambios más significativos se pueden ver en el "sidebar":
 

@@ -6,19 +6,18 @@
     <header class="job-header">
         <h1>{{ page.position }}</h1>
 
-        <div class="row">
-            <div class="col-md-7"><h2><i class="icon icon-gears"></i> {{ page.title }}</h2></div>
-            <div class="col-md-5 text-right">
-                <p class="meta small">
-                    {% if page.company %}<i class="icon icon-building-o"></i> {{ page.company }}{% endif %}
-                    {% if page.location.country %} • <img class="flag" src="/img/flags/{{ page.location.code }}.gif ">
-                    {{ page.location.country }}{% endif %}
-                    {% if page.date-start %} • <i class="icon icon-calendar"></i> {{ page.date-start }}
-                    {% if page.date-end %} - {{ page.date-end }}{% endif %}
-                    {% endif %}
-                </p>
-            </div>
-        </div>
+
+        <h2><i class="icon icon-gears"></i> {{ page.title }}</h2>
+
+        <p class="meta small">
+            {% if page.company %}<i class="icon icon-building-o"></i> {{ page.company }}{% endif %}
+            {% if page.location.country %} • <img class="flag" src="/img/flags/{{ page.location.code }}.gif ">
+            {{ page.location.country }}{% endif %}
+            {% if page.date-start %} • <i class="icon icon-calendar"></i> {{ page.date-start }}
+            {% if page.date-end %} - {{ page.date-end }}{% endif %}
+            {% endif %}
+        </p>
+
 
     </header>
 
@@ -26,9 +25,9 @@
         {{ content }}
     </section>
 
-    <aside class="tags">
-        {% for tag in page.tags %}
-        <span class=" label label-default"><i class="icon icon-tag"></i> {{tag}}</span>
-        {% endfor %}
-    </aside>
+    <!--<aside class="tags">-->
+    <!--{% for tag in page.tags %}-->
+    <!--<span class=" label label-default"><i class="icon icon-tag"></i> {{tag}}</span>-->
+    <!--{% endfor %}-->
+    <!--</aside>-->
 </article>

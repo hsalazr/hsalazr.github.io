@@ -111,8 +111,10 @@ a{
 
   }
 }*/
-.article{
-  margin-bottom: 10px;
+article{
+  &.job {
+    margin-bottom: 40px;
+  }
 }
 img.flag {
   margin-top: -2px;
