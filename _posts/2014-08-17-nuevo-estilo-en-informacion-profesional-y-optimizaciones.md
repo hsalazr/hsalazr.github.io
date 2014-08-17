@@ -7,7 +7,7 @@ author: "Humberto Salazar Pacios"
 categories: info
 ---
 
-
+[<img class="pull-right post-image img-responsive" src="{{ '/img/posts/2014/08/update-about-page.png' | prepend: site.url }}">][about]
 
 Llevo un par de días haciendo algunos ajustes al sitio para mejorar su rendimiento. Fundamentalmente me he centrado en reducir los tiempos de carga optimizando varios elementos.
 
