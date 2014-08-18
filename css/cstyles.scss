@@ -190,17 +190,26 @@ ul.skills-list {
 }
 
 .social {
+  margin-top: -5px;
   li {
     a {
       color: $color-primary-lt;
+      font-size: 24px;
+      padding-left: 15px;
       &:hover, &:focus {
         color: $color-primary;
         i.icon {
           &.icon-rss {
             color: #d58512
           }
-          &.icon-skype {
+          &.icon-skype, &.icon-twitter {
             color: rgb(0, 170, 231);
+          }
+          &.icon-facebook {
+            color: rgb(72, 90, 155);
+          }
+          &.icon-linkedin {
+            color: rgb(10, 96, 157);
           }
         }
       }

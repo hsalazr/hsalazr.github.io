@@ -3,8 +3,10 @@
     - name: Twitter Bootstrap
       level: 3
     - name: HTML5
+      icon: icon icon-html5
       level: 3
     - name: CSS3
+      icon: icon icon-css3
       level: 3
     - name: jQuery
       level: 3
@@ -28,8 +30,10 @@
     - name: Django CMS
       level: 3
     - name: Wordpress
+      icon: icon icon-wordpress
       level: 2
     - name: Drupal
+      icon: icon icon-drupal
       level: 2
     - name: Django
       level: 3
@@ -50,12 +54,16 @@
     - name: MVC.NET
       level: 2
     - name: MySQL
+      icon: icon icon-database
       level: 3
     - name: Postgres
+      icon: icon icon-database
       level: 2
     - name: SQLite
+      icon: icon icon-database
       level: 3
     - name: MongoDB
+      icon: icon icon-database
       level: 2
     - name: Code Igniter
       level: 3
@@ -63,6 +71,7 @@
 - text: "Domino los esquemas de trabajo basados en metodologías ágiles así como el uso de herramientas para el control de versiones como:"
   skills:
     - name: Git
+      icon: icon icon-git-square
       level: 3
     - name: Subversion
       level: 3
@@ -72,10 +81,13 @@
 - text: "Trabajo sin problemas sobre los Sistemas Operativos"
   skills:
     - name: OS X
+      icon: icon icon-apple
       level: 3
     - name: Linux
+      icon: icon icon-linux
       level: 3
     - name: Windows
+      icon: icon icon-windows
       level: 3
   
 - text: Me he desempeñado como administrador de sistemas informáticos y tengo conocimientos de hardware.

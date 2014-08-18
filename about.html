@@ -17,7 +17,7 @@ permalink: /about/
 </div>
 <div class="row">
     <section class="experiencia col-md-8">
-        <h1><i class="icon icon-suitcase"></i> Experiencia</h1>
+        <h1><i class="icon icon-briefcase"></i> Experiencia</h1>
         {% assign jobs = (site.collections.jobs.docs | sort: "date-start" | reverse ) %}
         {% for job in jobs %}
         {{job.output}}
@@ -53,7 +53,7 @@ permalink: /about/
     </section>
 
     <section class="habilidades col-md-4">
-        <h1>Habilidades</h1>
+        <h1><i class="icon icon-magic"></i> Habilidades</h1>
 
 
         {% for skill in site.data.skills %}
@@ -63,7 +63,13 @@ permalink: /about/
             {% if skill.skills %}
             <ul class="list-unstyled skills-list row">
                 {% for s in skill.skills %}
-                <li class="skill col-xs-6"><i class="icon icon-tag"></i> {{ s.name }}
+                <li class="skill col-xs-6">
+                    {% if s.icon %}
+                    <i class="{{ s.icon}}"></i>
+                    {% else %}
+                    <i class="icon icon-tag"></i>
+                    {% endif %}
+                    {{ s.name }}
                     <div class="skill-level icon lv{{ s.level }}"></div>
                 </li>
                 {% endfor %}
