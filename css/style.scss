@@ -1,6 +1,12 @@
 ---
 ---
 @import "bootstrap.min.css";
+.highlight > pre{
+  color: inherit;
+  border:none;
+  background-color: transparent;
+}
+@import "monokai.css";
 @import "icons.css";
 @import "fonts";
 @import "paleta";
@@ -125,7 +131,7 @@ img.flag {
 .sidebar{
   visibility: hidden;
 }
-footer{
+body > footer{
   visibility: hidden;
 }
 
