@@ -12,7 +12,7 @@ categories: tutorial
 ##Primeros pasos
 Para comenzar necesitas completar una serie de requisitos básicos para lograr un ambiente de trabajo apto para la tarea en cuestión.
 
-Dependiendo de lo que hagas a diario como parte de tu trabajo, puede que muchos de estos pasos no sean necesarios para tí. Pero como este tutorial es para todos, comenzamos desde el principio.
+Dependiendo de lo que hagas a diario como parte de tu trabajo, puede que muchos de estos pasos no sean necesarios para ti. Pero como este tutorial es para todos, comenzamos desde el principio.
 
 ###1. Tu cuenta en github.com
 <div class="col-md-6 pull-right">
@@ -33,7 +33,7 @@ La buena noticia es que además de las páginas para cada uno de nuestros reposi
 
 ###2. El repositorio para tu sitio
 
-A diferencia de las páginas de los proyectos. Las páginas de usuario deben ir en un repositorio especial para ellas. Si creamos un repositorio cuyo nombre coincida exactamente con el de nuestro usuario, en este caso <code>myuser</code>, el conteido del mismo estará disponible desde <code>http://mysuer.github.io/</code>
+A diferencia de las páginas de los proyectos. Las páginas de usuario deben ir en un repositorio especial para ellas. Si creamos un repositorio cuyo nombre coincida exactamente con el de nuestro usuario, en este caso <code>myuser</code>, el contenido del mismo estará disponible desde <code>http://myuser.github.io/</code>
 
 Por lo tanto, todo lo que pongamos en la raiz de ese repositorio estará disponible vía HTTP.
 
