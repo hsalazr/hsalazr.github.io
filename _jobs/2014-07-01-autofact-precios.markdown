@@ -21,4 +21,4 @@ tags:
  - Git
 ---
 
-Desarrollo del módulo para la gestión de informes de precios para vehículos del sistema Autofact Chile.
+Desarrollador full stack. Plataformas web de la empresa Autofact Chile Spa.
