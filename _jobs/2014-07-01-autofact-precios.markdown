@@ -21,4 +21,4 @@ tags:
  - Git
 ---
 
-Desarrollador full stack. Plataformas web de la empresa Autofact Chile Spa.
+Plataformas web de la empresa Autofact Chile SpA.
