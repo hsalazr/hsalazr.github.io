@@ -1,7 +1,7 @@
 ---
 layout: job
 position: "Desarrollador de front-end y back-end"
-title: "Autofact: Módulo de Informes de Precio"
+title: "Autofact: Plataforma Web"
 company: "<a href='http://www.autofact.cl' />Autofact CL</a>"
 location:
  city: "Santiago RM"
