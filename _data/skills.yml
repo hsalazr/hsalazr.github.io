@@ -22,6 +22,8 @@
       level: 3
     - name: Coffee Script
       level: 3
+    - name: AngularJS
+      level: 3
 
 - text: "He trabajado también en las capas inferiores con las tecnologías:"
   skills:
