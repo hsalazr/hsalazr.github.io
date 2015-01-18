@@ -14,4 +14,4 @@ Algo gracioso que nos ha pasado a todos alguna vez. Happy weekend.
   <footer>Tomado de: <cite title="CommitStrip"><a href="http://www.commitstrip.com/en/">CommitStrip</a></cite></footer>
 </blockquote>
 
-[link]: {{ '/img/posts/2015/01/antes-de-programar.png' | prepend: site.url }}
+[link]: {{ '/img/posts/2015/01/antes-de-programar.jpg' | prepend: site.url }}
