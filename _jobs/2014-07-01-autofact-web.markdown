@@ -8,7 +8,6 @@ location:
  country: "Chile"
  code: "cl"
 date-start: 2014
-date-end: "<span class='label label-success'><strong>ACTUAL</strong></span>"
 tags:
  - Twitter Bootstrap 3
  - Stylus
