@@ -20,6 +20,8 @@
       level: 3
     - name: Sass
       level: 3
+    - name: Scss
+      level: 3
     - name: Coffee Script
       level: 3
     - name: AngularJS
@@ -51,6 +53,10 @@
       level: 3
     - name: Java
       level: 1
+    - name: Phalcon
+      level: 3
+    - name: Code Igniter
+      level: 3
     - name: ASP.NET
       level: 3
     - name: MVC.NET
@@ -67,8 +73,7 @@
     - name: MongoDB
       icon: icon icon-database
       level: 2
-    - name: Code Igniter
-      level: 3
+
 
 - text: "Domino los esquemas de trabajo basados en metodologías ágiles así como el uso de herramientas para el control de versiones como:"
   skills:
@@ -78,6 +83,22 @@
     - name: Subversion
       level: 3
     - name: Microsoft TFS
+      level: 3
+    - name: Jira
+      level: 3
+    - name: Bitbucket
+      level: 3
+
+- text: "Tengo experiencia en el uso, administración y monitoreo de entornos de producción basados en la nube"
+    - name: Amazon Web Services
+      level: 3
+    - name: New Relic
+      level: 3
+    - name: Google Web Developer Tools
+      level: 3
+    - name: Google Analytics
+      level: 3
+    - name: Google Apps
       level: 3
 
 - text: "Trabajo sin problemas sobre los Sistemas Operativos"
