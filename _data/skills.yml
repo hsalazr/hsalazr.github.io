@@ -91,11 +91,11 @@
 
 - text: "Tengo experiencia en el uso, administración y monitoreo de entornos de producción basados en la nube"
   skills:
-    - name: Amazon Web Services
+    - name: Amazon WS
       level: 3
     - name: New Relic
       level: 3
-    - name: Google Web Developer Tools
+    - name: Google WDT
       level: 3
     - name: Google Analytics
       level: 3
