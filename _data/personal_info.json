@@ -1,7 +1,7 @@
 {
     "name": "Humberto Salazar Pacios",
     "profession": "Ingeniero Informático",
-    "description": "Más de <strong>5 años</strong> trabajando en el <strong>Diseño</strong> y <strong>Desarrollo</strong> de <strong>Soluciones Web</strong>. Especializado en la <strong>Capa de Interfaz de Usuario</strong> (UI) y <strong>Experiencia de Usuario</strong> (UX).",
+    "description": "Más de <strong>6 años</strong> trabajando en el <strong>Diseño</strong>, <strong>Desarrollo</strong>, <strong>Despliegue</strong>, <strong>Explotación</strong> y <strong>Optimización</strong> de <strong>Soluciones Web</strong>. Desde la concepción de <strong>Arquitectura</strong>, configuración de <strong>Servidores</strong> hasta la <strong>Implementación</strong> de todas las capas de la Aplicación",
     "location": {
         "country" :{
             "name":"Cuba",
@@ -10,7 +10,7 @@
         "city": "La Habana"
     },
     "job":{
-        "title": "Desarrollador Web",
+        "title": "Full Stack Web Developer",
         "join": "en",
         "company":{
             "name":"Autofact Chile SpA",
