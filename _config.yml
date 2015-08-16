@@ -1,11 +1,11 @@
 # Site settings
 title: Humberto Salazar
 subtitle: full stack web developer
-email: hsalazr@gmail.com
+email: contacto@hsalazar.xyz
 description: "..."
 author: Humberto Salazar Pacios
 baseurl: ""
-url: "http://hsalazr.github.io"
+url: "http://www.hsalazar.xyz"
 twitter_username: hsalazar
 github_username:  hsalazr
 collections:
