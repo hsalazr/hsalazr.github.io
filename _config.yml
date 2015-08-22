@@ -5,6 +5,8 @@ email: contacto@hsalazar.xyz
 description: "..."
 author: Humberto Salazar Pacios
 baseurl: ""
+paginate: 2
+paginate_path: "/blog/page:num/"
 url: "http://www.hsalazar.xyz"
 twitter_username: hsalazar
 github_username:  hsalazr
