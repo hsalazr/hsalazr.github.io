@@ -49,18 +49,21 @@ layout: default_sidebar
     {% endfor %}
 </section>
 <section>
-    <!-- Pagination links -->
-    <div class="pagination">
-        {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
-        {% else %}
-        <span class="previous">Previous</span>
-        {% endif %}
-        <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-        {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-        {% else %}
-        <span class="next ">Next</span>
-        {% endif %}
-    </div>
+    <nav>
+        <ul class="pager">
+            {% if paginator.previous_page %}
+            <li class="previous"><a href="{{ paginator.previous_page_path }}"><span aria-hidden="true">&larr;</span>P&aacute;gina
+                anterior</a></li>
+            {% else %}
+            <li class="previous disabled"><a href="#"><span aria-hidden="true">&larr;</span>P&aacute;gina anterior</a>
+            </li>
+            {% endif %}
+            {% if paginator.next_page %}
+            <li class="next"><a href="{{ paginator.next_page_path }}">P&aacute;gina siguiente<span
+                    aria-hidden="true">&rarr;</span></a></li>
+            {% else %}
+            <li class="next"><a href="#">P&aacute;gina siguiente<span aria-hidden="true">&rarr;</span></a></li>
+            {% endif %}
+        </ul>
+    </nav>
 </section>
