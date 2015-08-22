@@ -52,7 +52,9 @@ layout: default_sidebar
     <nav>
         <ul class="pager">
             {% if paginator.previous_page %}
-            <li class="previous"><a href="{{ paginator.previous_page_path }}"><span aria-hidden="true">&larr;</span>P&aacute;gina
+            <li class="previous"><a
+                    href="{{ paginator.previous_page_path | replace: 'index.html', '/' | prepend: site.baseurl | replace: '//', '/' }}"><span
+                    aria-hidden="true">&larr;</span>P&aacute;gina
                 anterior</a></li>
             {% else %}
             <li class="previous disabled"><a href="#"><span aria-hidden="true">&larr;</span>P&aacute;gina anterior</a>
@@ -62,7 +64,7 @@ layout: default_sidebar
             <li class="next"><a href="{{ paginator.next_page_path }}">P&aacute;gina siguiente<span
                     aria-hidden="true">&rarr;</span></a></li>
             {% else %}
-            <li class="next"><a href="#">P&aacute;gina siguiente<span aria-hidden="true">&rarr;</span></a></li>
+            <li class="next disabled"><a href="#">P&aacute;gina siguiente<span aria-hidden="true">&rarr;</span></a></li>
             {% endif %}
         </ul>
     </nav>
