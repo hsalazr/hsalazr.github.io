@@ -27,10 +27,12 @@ layout: default_sidebar
             {% if page.meta %} • {{ page.meta }}{% endif %}
         </p>
     </header>
+    {% include widgets/adsense-mobile.html %}
     <article class="post-content">
         {{ content }}
     </article>
 </article>
+{% include widgets/adsense-mobile.html %}
 {% if site.production %}
 {% if page.comments %}
 <div id="disqus_thread"></div>
