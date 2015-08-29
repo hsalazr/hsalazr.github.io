@@ -25,16 +25,23 @@ layout: default_sidebar
             {{ page.date | date: "%Y" }}
             {% if page.author %} • {{ page.author }}{% endif %}
             {% if page.meta %} • {{ page.meta }}{% endif %}
+            • {% include widgets/social-media.html %}
+
         </p>
     </header>
     {% include widgets/adsense-mobile.html %}
     <article class="post-content">
         {{ content }}
     </article>
+    <aside class="share-page text-right">
+        <span class="text-muted small">Comp&aacute;rtelo: &rarr;</span>
+        {% include widgets/social-media.html %}
+    </aside>
 </article>
 {% include widgets/adsense-mobile.html %}
 {% if site.production %}
 {% if page.comments %}
+<section style="margin-top:30px;">
 <div id="disqus_thread"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
@@ -52,5 +59,6 @@ layout: default_sidebar
 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
 </noscript>
 <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
 {% endif %}
 {% endif %}

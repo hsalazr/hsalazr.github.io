@@ -13,6 +13,7 @@ collections:
 # Build settings
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+excerpt_separator: <!--more-->
 production: true
 exclude:
  - hsalazrio.sublime-project

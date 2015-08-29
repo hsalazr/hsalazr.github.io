@@ -9,6 +9,8 @@ categories: tutorial
 
 *Si quieres tener tu propia página personal con tu CV online sin tener que invertir dinero en un nombre de dominio o un servicio de hosting y tienes conocimientos básicos sobre HTML y CSS, con esta guía, puedes lograrlo en muy poco tiempo gracias a las páginas de GitHub.*
 
+<!--more-->
+
 ##Primeros pasos
 Para comenzar necesitas completar una serie de requisitos básicos para lograr un ambiente de trabajo apto para la tarea en cuestión.
 

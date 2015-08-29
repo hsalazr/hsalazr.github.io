@@ -5,10 +5,11 @@ comments: true
 date:   2014-08-10 17:30:34
 author: "Humberto Salazar Pacios"
 categories: info
-description: "Hola visitante"
 ---
 
 Hola visitante.
+
+<!--more-->
 
 Estoy montando este sitio para que sirva como espacio para compartir ideas y cosas interesantes del mundo del desarrollo
 web. Además, aquí podrás encontrar [información profesional][about] sobre mi.

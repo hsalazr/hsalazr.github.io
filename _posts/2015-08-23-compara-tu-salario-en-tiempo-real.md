@@ -9,6 +9,8 @@ categories: interesante
 
 Revisando mis canales RSS favoritos me encuentro con este sitio que te propone comparar, segundo a segundo, tu salario con el de otras profesiones.
 
+<!--more-->
+
 El proceso es simple, solo tienes que calcular tu salario de 1 año convertido en USD, introducirlo en el campo correspondiente, presionar enter y ver como va creciendo.
 
 Debes tener en cuenta que las referencias de precios y salarios vienen de USA así que puede que no se ajuste 100% a la realidad de tu país o región, pero igual vale la pena hacer el experimento.
