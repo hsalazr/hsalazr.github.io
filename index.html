@@ -27,7 +27,15 @@ layout: default_sidebar
                 {% endcase %}
                 {{ post.date | date: "%Y" }}
 
-                {% if post.meta %} • {{ post.meta }}{% endif %}
+                {% if post.meta %} • {{ post.meta }}{% endif %} •
+                <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ post.url }}&via=hsalazar&related=hsalazar"
+                   rel="nofollow" target="_blank" title="Comparte en Twitter"><i class="icon icon-twitter"></i> Twitter</a>
+                •
+                <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ post.url }}" rel="nofollow" target="_blank"
+                   title="Comparte en Facebook"><i class="icon icon-facebook"></i> Facebook</a> •
+                <a href="http://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ post.url }}&title={{ post.title }}&summary={{post.excerpt| strip_html}}&source=hsalazar.xyz"
+                   rel="nofollow" target="_blank" title="Comparte en LinkedIn"><i class="icon icon-linkedin"></i>
+                    LinkedIn</a>
             </p>
         </header>
         <article class="post-content">
@@ -41,6 +49,14 @@ layout: default_sidebar
                 {% endif %}
             </div>
             <div class="col-sm-6 text-right ">
+                <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ post.url }}&via=hsalazar&related=hsalazar"
+                   rel="nofollow" target="_blank" title="Comparte en Twitter"><i class="icon icon-twitter"></i> Twitter</a>
+                •
+                <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ post.url }}" rel="nofollow" target="_blank"
+                   title="Comparte en Facebook"><i class="icon icon-facebook"></i> Facebook</a> •
+                <a href="http://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ post.url }}&title={{ post.title }}&summary={{post.excerpt| strip_html}}&source=hsalazar.xyz"
+                   rel="nofollow" target="_blank" title="Comparte en LinkedIn"><i class="icon icon-linkedin"></i>
+                    LinkedIn</a> •
                 <a href="{{post.url}}#disqus_thread" class="small"><i class="icon icon-comment"></i> Comentarios</i></a>
             </div>
             </div>
