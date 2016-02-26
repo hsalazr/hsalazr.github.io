@@ -2,7 +2,7 @@
 layout: post
 title:  "Mi página personal con GitHub Pages y Jekyll (I)"
 comments: true
-date: 2014-09-02 00:24:03
+date: 2014-09-02 00:24:03 -0300
 author: "Humberto Salazar Pacios"
 categories: tutorial
 ---

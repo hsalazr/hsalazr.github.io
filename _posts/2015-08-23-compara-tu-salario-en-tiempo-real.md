@@ -2,7 +2,7 @@
 layout: post
 title:  "Compara tu salario en tiempo real con otras profesiones"
 comments: true
-date: 2015-08-23 16:10:00
+date: 2015-08-23 16:10:00 -0300
 author: "Humberto Salazar Pacios"
 categories: interesante
 ---

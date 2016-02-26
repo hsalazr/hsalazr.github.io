@@ -18,7 +18,7 @@ permalink: /about/
 <div class="row">
     <section class="experiencia col-md-8">
         <h1><i class="icon icon-briefcase"></i> Experiencia</h1>
-        {% assign jobs = (site.collections.jobs.docs | sort: "date-start" | reverse ) %}
+        {% assign jobs = (site.collections[0].docs | sort: "date-start" | reverse ) %}
         {% for job in jobs %}
         {{job.output}}
         {% endfor %}

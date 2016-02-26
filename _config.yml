@@ -22,6 +22,7 @@ lsi: false
 gems:
  - jekyll-sitemap
  - jemoji
+ - jekyll-paginate
 sass:
   style: :compressed
 paginate: 4

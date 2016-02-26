@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Nuevo estilo en la página de Información Profesional y algunas optimizaciones"
-date:   2014-08-17 00:38:00
+date:   2014-08-17 00:38:00 -0300
 comments: true
 author: "Humberto Salazar Pacios"
 categories: info

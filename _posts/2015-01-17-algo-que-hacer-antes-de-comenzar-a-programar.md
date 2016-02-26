@@ -2,7 +2,7 @@
 layout: post
 title:  "Algo que hacer antes de comenzar a programar"
 comments: true
-date: 2015-01-17 22:19:03
+date: 2015-01-17 22:19:03 -0300
 author: "Humberto Salazar Pacios"
 categories: humor
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Comentarios y Analytics"
-date:   2014-08-13 00:33:00
+date:   2014-08-13 00:33:00 -0300
 comments: true
 author: "Humberto Salazar Pacios"
 categories: info
