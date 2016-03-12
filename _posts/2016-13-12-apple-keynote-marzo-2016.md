@@ -14,9 +14,9 @@ Marzo de 2016 a las 14:00 (hora de Santiago de Chile)][link2].
 
 Los rumores apuntan al lanzamiento de:
 
-- **Un nuevo iPad:** Probablemente la evolucion de la gama de iPad Air incluyendo algunas características del iPad Pro
-- **Un nuevo iPhone** El más polémico de todos, se intuye un nuevo intento de iPhone de "bajo costo" similar a los extintos 5C. Se piensa que será algo así como un iPhone 5S mejorado pero sin llegar al nivel del 6.
-- **Novedades en los OS** Seguramente se anunciarán las nuevas actualizaciones de iOS tvOS y OS X.
+- **Un nuevo iPad:** Probablemente la evolución de la gama de iPad Air incluyendo algunas características del iPad Pro
+- **Un nuevo iPhone:** El más polémico de todos, se intuye un nuevo intento de iPhone de "bajo costo" similar a los extintos 5C. Se piensa que será algo así como un iPhone 5S mejorado pero sin llegar al nivel del 6.
+- **Novedades en los OS:** Seguramente se anunciarán las nuevas actualizaciones de iOS tvOS y OS X.
 
 Siempre queda la esperanza de ver alguna sopresa que vaya más allá de los rumores.
 
