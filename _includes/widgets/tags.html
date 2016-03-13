@@ -1,0 +1,13 @@
+<div class="widget tags hidden-print">
+    <h1>Categorías</h1>
+    <ul class="skills-list list-unstyled row">
+        {% for category in site.categories %}
+        <li class="col-xs-6 skill">
+            <a href="{{site.utl}}/categoria/{{ category | first | slugify }}">
+                {{ category | first | capitalize }}
+                <span class="badge pull-right">{{ category | last | size }}</span>
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>

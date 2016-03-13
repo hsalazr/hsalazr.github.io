@@ -4,7 +4,7 @@ title:  "Apple Keynote - Marzo 2016"
 comments: true
 date: 2016-03-12 17:00:00 -0300
 author: "Humberto Salazar Pacios"
-categories: eventos
+categories: [eventos]
 ---
 
 Desde hace ya varios días es oficial la fecha de la próxima Keynote de Apple, programada para el próximo [lunes 21 de 

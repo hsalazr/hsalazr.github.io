@@ -4,7 +4,7 @@ title:  "Compara tu salario en tiempo real con otras profesiones"
 comments: true
 date: 2015-08-23 16:10:00 -0300
 author: "Humberto Salazar Pacios"
-categories: interesante
+categories: [interesante]
 ---
 
 Revisando mis canales RSS favoritos me encuentro con este sitio que te propone comparar, segundo a segundo, tu salario con el de otras profesiones.

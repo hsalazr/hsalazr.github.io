@@ -4,7 +4,7 @@ title:  "Iconos de países y barra lateral"
 date:   2014-08-11 23:00:00 -0300
 comments: true
 author: "Humberto Salazar Pacios"
-categories: info
+categories: [informacion]
 ---
 
 He agregado un sidebar en el home page con algunos datos personales y además incorporé el paquete de íconos de banderas

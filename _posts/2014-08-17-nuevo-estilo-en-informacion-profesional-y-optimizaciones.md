@@ -4,7 +4,7 @@ title:  "Nuevo estilo en la página de Información Profesional y algunas optimi
 date:   2014-08-17 00:38:00 -0300
 comments: true
 author: "Humberto Salazar Pacios"
-categories: info
+categories: [informacion]
 ---
 
 [<img class="pull-right post-image img-responsive" src="{{ '/img/posts/2014/08/update-about-page.png' | prepend: site.url }}">][about]

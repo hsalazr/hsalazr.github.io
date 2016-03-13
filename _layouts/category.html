@@ -1,0 +1,50 @@
+---
+layout: default_sidebar
+---
+<section class="posts">
+    <article class="post">
+        <header class="post-header">
+            <h1>{{page.category | capitalize}}</h1>
+            <p class="meta small">
+                {% assign total = site.categories.[page.category] | size %}
+                {{ total }} artículo{% if total > 1 %}s{% endif %} publicado{% if total > 1 %}s{% endif %} en esta categoría.
+            </p>
+        </header>
+        <article class="post-content">
+            <ul class="media-list">
+                {% for post in site.categories.[page.category] %}
+                <li class="media">
+                    <div class="media-body">
+                        <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">
+                            <h2 class="media-heading">{{ post.title }}</h2>
+                        </a>
+
+                        <div class="meta small">
+                            <i class="icon icon-calendar"></i>
+                            {% assign m = post.date | date: "%-m" %}
+                            {{ post.date | date: "%-d" }}
+                            {% case m %}
+                            {% when '1' %}Enero
+                            {% when '2' %}Febrero
+                            {% when '3' %}Marzo
+                            {% when '4' %}Abril
+                            {% when '5' %}Mayo
+                            {% when '6' %}Junio
+                            {% when '7' %}Julio
+                            {% when '8' %}Agosto
+                            {% when '9' %}Septiembre
+                            {% when '10' %}Octubre
+                            {% when '11' %}Noviembre
+                            {% when '12' %}Diciembre
+                            {% endcase %}
+                            {{ post.date | date: "%Y" }}
+                        </div>
+                        {{ post.excerpt | strip_html | strip_newlines | truncate: 250 }}
+                    </div>
+                </li>
+                {% endfor %}
+            </ul>
+        </article>
+    </article>
+</section>
+

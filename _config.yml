@@ -2,7 +2,9 @@
 title: Humberto Salazar
 subtitle: full stack web developer
 email: contacto@hsalazar.xyz
-description: "..."
+description: >
+  Más de 6 años trabajando en el Diseño, Desarrollo, Despliegue, Explotación y Optimización de Soluciones Web. Desde la
+  concepción de Arquitectura, configuración de Servidores hasta la Implementación de todas las capas de la Aplicación
 author: Humberto Salazar Pacios
 baseurl: ""
 url: "http://www.hsalazar.xyz"
@@ -25,5 +27,5 @@ gems:
  - jekyll-paginate
 sass:
   style: :compressed
-paginate: 4
+paginate: 3
 paginate_path: "/blog/page/:num"

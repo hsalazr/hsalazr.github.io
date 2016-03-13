@@ -4,7 +4,7 @@ title:  "Mi página personal con GitHub Pages y Jekyll (I)"
 comments: true
 date: 2014-09-02 00:24:03 -0300
 author: "Humberto Salazar Pacios"
-categories: tutorial
+categories: [tutorial]
 ---
 
 *Si quieres tener tu propia página personal con tu CV online sin tener que invertir dinero en un nombre de dominio o un servicio de hosting y tienes conocimientos básicos sobre HTML y CSS, con esta guía, puedes lograrlo en muy poco tiempo gracias a las páginas de GitHub.*

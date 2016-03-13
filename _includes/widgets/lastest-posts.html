@@ -1,0 +1,36 @@
+<div class="widget hidden-print">
+    <h1>Últimos artículos publicados</h1>
+    <ul class="media-list">
+        {% for post in site.posts limit:10 %}
+        <li class="media">
+            <div class="media-body">
+                <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}"><h4 class="media-heading">{{ post.title }}</h4></a>
+
+                <div class="meta small">
+                    <i class="icon icon-calendar"></i>
+                    {% assign m = post.date | date: "%-m" %}
+                    {{ post.date | date: "%-d" }}
+                    {% case m %}
+                    {% when '1' %}Enero
+                    {% when '2' %}Febrero
+                    {% when '3' %}Marzo
+                    {% when '4' %}Abril
+                    {% when '5' %}Mayo
+                    {% when '6' %}Junio
+                    {% when '7' %}Julio
+                    {% when '8' %}Agosto
+                    {% when '9' %}Septiembre
+                    {% when '10' %}Octubre
+                    {% when '11' %}Noviembre
+                    {% when '12' %}Diciembre
+                    {% endcase %}
+                    {{ post.date | date: "%Y" }}
+
+
+                </div>
+                {{ post.excerpt | strip_html | strip_newlines | truncate: 160 }}
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+</div>

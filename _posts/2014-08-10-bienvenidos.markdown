@@ -4,7 +4,7 @@ title:  "Bienvenidos"
 comments: true
 date:   2014-08-10 17:30:34 -0300
 author: "Humberto Salazar Pacios"
-categories: info
+categories: [informacion]
 ---
 
 Hola visitante.

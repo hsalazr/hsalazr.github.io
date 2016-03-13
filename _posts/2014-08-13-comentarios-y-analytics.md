@@ -4,7 +4,7 @@ title:  "Comentarios y Analytics"
 date:   2014-08-13 00:33:00 -0300
 comments: true
 author: "Humberto Salazar Pacios"
-categories: info
+categories: [informacion]
 ---
 
 Acabo de registrar el sitio en [Google Analytics][ga] y [Google Webmasters Tools][gwt] para ver cómo se va comportando y que cosas debo ir mejorando.
