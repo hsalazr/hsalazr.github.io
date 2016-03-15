@@ -136,6 +136,28 @@ body > footer{
 }
 
 @media (max-width: 768px) {
+  html body>.container{
+    padding-bottom: 0;
+  }
+  body > footer >.container{
+    border-top: 0px !important;
+    background-color: $color-primary;
+    .pull-right.list-inline.social{
+      text-align: center;
+      float: none !important;
+      a{
+        color: $color-secondary;
+        font-size: 45px;
+        &:hover{
+          color: $color-secondary;
+        }
+      }
+    }
+
+  }
+  .sidebar{
+    padding-left: 0px;
+  }
   .navbar-header {
     float: left
   }

@@ -1,4 +1,4 @@
-<div class="widget current-job">
+<div class="widget current-job hidden-xs">
     <h1>Proyecto actual</h1>
     {% assign jobs = (site.collections[0].docs | sort: "date-start" | reverse ) %}
     {% for job in jobs | limit: 1 %}
