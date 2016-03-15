@@ -1,5 +1,5 @@
 ---
-layout: default_sidebar
+layout: inner_page
 ---
 <article class="post">
     <header class="post-header">
@@ -29,7 +29,6 @@ layout: default_sidebar
 
         </p>
     </header>
-    {% include widgets/adsense-mobile.html %}
     <article class="post-content">
         {{ content }}
     </article>
@@ -38,7 +37,6 @@ layout: default_sidebar
         {% include widgets/social-media.html %}
     </aside>
 </article>
-{% include widgets/adsense-mobile.html %}
 {% if site.production %}
 {% if page.comments %}
 <section style="margin-top:30px;">
