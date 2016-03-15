@@ -16,7 +16,7 @@
                     <a href="/about/"><i class="icon icon-user-suit"></i> <span class="hidden-xs">Sobre Mi</span></a>
                 </li>
                 {% for slink in site.data.social_links %}
-                        <li class="hidden-xs"><a href="{{ slink.link }}" target="_blank"><i class="icon icon-{{ slink.type }}"></i></a></li>
+                        <li class="hidden-sm"><a href="{{ slink.link }}" target="_blank"><i class="icon icon-{{ slink.type }}"></i></a></li>
                     {% endfor %}
                 <!--<li {% if "/contacto/" == page.url %} class="active" {% endif %}>-->
                     <!--<a href="/contacto/"><i class="icon icon-coffee"></i> <span class="hidden-xs">Contacto</span></a>-->
