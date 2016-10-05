@@ -11,12 +11,12 @@ categories: [tutorial]
 
 <!--more-->
 
-##Primeros pasos
+## Primeros pasos
 Para comenzar necesitas completar una serie de requisitos básicos para lograr un ambiente de trabajo apto para la tarea en cuestión.
 
 Dependiendo de lo que hagas a diario como parte de tu trabajo, puede que muchos de estos pasos no sean necesarios para ti. Pero como este tutorial es para todos, comenzamos desde el principio.
 
-###1. Tu cuenta en github.com
+### 1. Tu cuenta en github.com
 <div class="col-md-6 pull-right">
 <blockquote >
  <i class="icon icon-github pull-left" style="font-size:48px"></i>
@@ -33,7 +33,7 @@ Asumiendo que el nombre de usuario que elegimos fue <code>myuser</code> y el nom
 
 La buena noticia es que además de las páginas para cada uno de nuestros repositorios, GitHub nos habilita un espacio similar para nuestro usuario. Lo que nos lleva al siguiente paso.
 
-###2. El repositorio para tu sitio
+### 2. El repositorio para tu sitio
 
 A diferencia de las páginas de los proyectos. Las páginas de usuario deben ir en un repositorio especial para ellas. Si creamos un repositorio cuyo nombre coincida exactamente con el de nuestro usuario, en este caso <code>myuser</code>, el contenido del mismo estará disponible desde <code>http://myuser.github.io/</code>
 
@@ -45,7 +45,7 @@ Estamos de acuerdo en que mantener una web de varias páginas a base de puro HTM
 
 Pero antes, debemos aprender sobre ¿cómo publicar algo en nuestro repositorio?. Lo que nos lleva al paso 3.
 
-###3. Trabajo con git
+### 3. Trabajo con git
 
 Debes conseguir un cliente de git. Dependiendo te tu sistema operativo es probable que ya lo tengas si no lo tienes con la ayuda de Google puedes encontrar uno fácilemente.
 

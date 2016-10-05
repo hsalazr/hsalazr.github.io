@@ -6,7 +6,7 @@ date: 2016-10-05 02:00:00 -0300
 author: "Humberto Salazar Pacios"
 categories: [eventos]
 ---
-Durante el día de ayer Google nos mostró una [Keynote][keynote] "especial" donde presentó sus novedades en materia de *Inteligencia Artificial*, *Software* y *Hardware*
+Durante el día de ayer Google nos mostró una [Keynote][keynote] "especial" donde presentó sus novedades en materia de **Inteligencia Artificial**, **Software** y **Hardware**
 
 <img class="post-image img-responsive" src="{{ '/img/posts/2016/10/made-by-google.png' | prepend: site.url }}">
 
@@ -19,7 +19,7 @@ Subjetividades a parte, la propuesta de Google de poner a la IA en la forma de (
  
 Los anuncios en materia de Hardware no suenan tan innovadores:
 
-##Pixel Phone By Google
+## Pixel Phone By Google
 
 Por mucho que lo busque no veo la innovación acá. 
 
@@ -33,7 +33,7 @@ Por alguna razón [dejaron de intentarlo][chstore], espero que no les pase lo mi
 
 Me pareció gracioso que presentaran su app y adaptador para migrar de iPhone a Pixel devolviéndole la jugada a Apple :)
 
-##Home by Google
+## Home by Google
 
 No se si es algo por lo que pagaría... es como un florero caro que puede hacer lo mismo que Google Assistant en el celular.
 
@@ -41,15 +41,15 @@ No se si es algo por lo que pagaría... es como un florero caro que puede hacer 
 
 Por mucho que me lo vendan como algo más lo veo como cualquier otro VR Headset, puede que más ligero, cómodo o hasta con más estilo... pero ¿en serio?
 
-##Wi-Fi by Google
+## Wi-Fi by Google
 
 Sinceramente es donde veo más potencial, al menos como concepto lo que promete es útil si llega funcionar como dicen.
 
-##CHROMECAST
+## CHROMECAST
 
 Una versión "upgradeada"... aburrido.
 
-##Resumen
+## Resumen
 
 Me quedé con ganas de más y no quiero ser pesimista pero, he visto fracasar productos más innovadores de Google.
 
