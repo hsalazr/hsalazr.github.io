@@ -16,6 +16,7 @@ permalink: /about/
     </section>
 </div>
 <div class="row">
+
     <section class="experiencia col-md-8">
         <h1><i class="icon icon-briefcase"></i> Experiencia</h1>
         {% assign jobs = (site.collections[0].docs | sort: "date-start" | reverse ) %}
@@ -23,59 +24,61 @@ permalink: /about/
         {{job.output}}
         {% endfor %}
     </section>
+    <aside class="col-md-4">
+        <section class="formacion">
+            <h1><i class="icon icon-mortar-board"></i> Formaci&oacute;n</h1>
+            <article>
+                <h1>Ingenier&iacute;a en Ciencias Inform&aacute;ticas</h1>
 
-    <section class="formacion col-md-4">
-        <h1><i class="icon icon-mortar-board"></i> Formaci&oacute;n</h1>
-        <article>
-            <h1>Ingenier&iacute;a en Ciencias Inform&aacute;ticas</h1>
+                <h2><i class="icon icon-institution"></i> <a href="http://www.uci.cu/">Universidad de las Ciencias
+                    Informáticas</a></h2>
 
-            <h2><i class="icon icon-institution"></i> <a href="http://www.uci.cu/">Universidad de las Ciencias
-                Informáticas</a></h2>
+                <p class="meta small"><i class="icon icon-map-marker"></i> La Habana • <img class="flag"
+                                                                                            src="/img/flags/cu.gif ">
+                    Cuba •
+                    <i
+                            class="icon icon-calendar"></i> 2009</p>
+            </article>
+        </section>
+        <section class="idiomas">
+            <h1><i class="icon icon-language"></i> Conocimientos de Idiomas</h1>
+            <article>
+                <ul class="list-unstyled skills-list row">
+                    <li class="skill col-xs-6"><img class="flag" src="/img/flags/es.gif "> Español
+                        <div class="skill-level icon lv3"></div>
+                    </li>
+                    <li class="skill col-xs-6"><img class="flag" src="/img/flags/gb.gif "> Ingl&eacute;s
+                        <div class="skill-level icon lv2"></div>
+                    </li>
+                </ul>
+            </article>
+        </section>
 
-            <p class="meta small"><i class="icon icon-map-marker"></i> La Habana • <img class="flag"
-                                                                                        src="/img/flags/cu.gif "> Cuba •
-                <i
-                        class="icon icon-calendar"></i> 2009</p>
-        </article>
-    </section>
-    <section class="idiomas col-md-4">
-        <h1><i class="icon icon-language"></i> Conocimientos de Idiomas</h1>
-        <article>
-            <ul class="list-unstyled skills-list row">
-                <li class="skill col-xs-6"><img class="flag" src="/img/flags/es.gif "> Español
-                    <div class="skill-level icon lv3"></div>
-                </li>
-                <li class="skill col-xs-6"><img class="flag" src="/img/flags/gb.gif "> Ingl&eacute;s
-                    <div class="skill-level icon lv2"></div>
-                </li>
-            </ul>
-        </article>
-    </section>
-
-    <section class="habilidades col-md-4">
-        <h1><i class="icon icon-magic"></i> Habilidades</h1>
+        <section class="habilidades">
+            <h1><i class="icon icon-magic"></i> Habilidades</h1>
 
 
-        {% for skill in site.data.skills %}
-        <article>
-            <p>{{ skill.text }}</p>
+            {% for skill in site.data.skills %}
+            <article>
+                <p>{{ skill.text }}</p>
 
-            {% if skill.skills %}
-            <ul class="list-unstyled skills-list row">
-                {% for s in skill.skills %}
-                <li class="skill col-xs-6">
-                    {% if s.icon %}
-                    <i class="{{ s.icon}}"></i>
-                    {% else %}
-                    <i class="icon icon-tag"></i>
-                    {% endif %}
-                    {{ s.name }}
-                    <div class="skill-level icon lv{{ s.level }}"></div>
-                </li>
-                {% endfor %}
-            </ul>
-            {% endif %}
-        </article>
-        {% endfor %}
-    </section>
+                {% if skill.skills %}
+                <ul class="list-unstyled skills-list row">
+                    {% for s in skill.skills %}
+                    <li class="skill col-xs-6">
+                        {% if s.icon %}
+                        <i class="{{ s.icon}}"></i>
+                        {% else %}
+                        <i class="icon icon-tag"></i>
+                        {% endif %}
+                        {{ s.name }}
+                        <div class="skill-level icon lv{{ s.level }}"></div>
+                    </li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+            </article>
+            {% endfor %}
+        </section>
+    </aside>
 </div>

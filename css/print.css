@@ -13,27 +13,149 @@
 
     html body > .container {
         padding: 0;
+        width: 100%;
     }
 
     @page {
-        margin: 1.5cm 2cm 2cm 1.5cm;
+        margin: 1.5cm;
+    }
+
+    .container > .row > section, .container > .row > section + aside > section {
+        border-top: 16px solid #8496af;
+        margin-top: 20px;
+    }
+
+    h1 {
+        page-break-after: avoid;
+    }
+
+    section > h1 {
+        font-size: 16px;
+    }
+
+    .container > .row > section > h1 {
+        border: none;
+        position: absolute;
+        top: -37px;
+        padding: 0 10px;
+        background-color: #FFF !important;
+        width: auto;
+        text-transform: uppercase;
+        left: 10px;
+        page-break-inside: avoid;
+
+    }
+
+    .container > .row > section > h1, .container > .row > section > h1 > i,
+    .container > .row > section + aside > section > h1, .container > .row > section + aside > section > h1 > i{
+        color: #8496af !important;
+    }
+
+    .container > .row > section > article {
+        padding-top: 15px;
+        page-break-inside: avoid;
+    }
+
+    .container > .row > section > article.job {
+        margin-top: 0;
+        padding-top: 0;
+        margin-bottom: 0;
+
+    }
+
+    .container > .row > section > article.job > header h1, .formacion > article h1 {
+        font-size: 18px;
+    }
+
+    .formacion > article h1 {
+        margin-top: 0px;
+    }
+
+    .container > .row > section > article.job > header h2, .formacion > article h2 {
+        font-size: 12px;
+        margin-top: -4px;
+    }
+
+    .container > .row > section > article.job > header p.meta.small {
+        font-size: 10px;
+        color: #CCC;
+        margin-top: -10px;
+    }
+
+    .container > .row > section > article.job .job-description p, aside {
+        font-size: 12px;
     }
 
     section#profile {
-        border-top: 30px solid black;
+        border-top: 30px solid #94C53E;
+        border-bottom: none;
+        margin-bottom: 0;
     }
 
     section#profile h1 {
         position: absolute;
         top: -31px;
-        left: 15px;
-        padding: 0 10px;
+        left: 22px;
+        padding: 0 8px;
         background-color: #FFF !important;
         width: auto;
         text-transform: uppercase;
+        color: #94C53E !important;
 
     }
-    section#profile article .avatar{
+
+    section#profile:after {
+        content: url(https://chart.googleapis.com/chart?cht=qr&chs=150x150&chl=http://www.hsalazar.xyz/vCard.vcf&choe=UTF-8);
+        position: absolute;
+        right: 0;
+        top: -47px;
+    }
+
+    section#profile article .avatar {
         display: none;
+    }
+
+    section#profile article p.lead {
+        margin-right: 120px;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        font-size: 13px;
+        margin-top: -25px;
+    }
+
+    section.experiencia {
+        position: absolute;
+        width: 65%;
+    }
+
+    section.experiencia + aside {
+        position: absolute;
+        width: 38%;
+        right: -10px;
+    }
+
+    section.experiencia + aside > section > h1 {
+        border: none;
+        margin-top: -32px;
+        background-color: #FFF !important;
+        width: auto;
+        position: absolute;
+        padding-right: 8px;
+    }
+
+    section.experiencia + aside > section {
+        padding-top: 15px;
+    }
+
+    footer {
+        display: none;
+    }
+
+    aside article {
+        page-break-inside: avoid;
+    }
+
+    aside ul.skills-list li.skill {
+        font-size: 8px;
     }
 }
