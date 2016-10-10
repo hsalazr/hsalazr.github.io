@@ -6,11 +6,11 @@ date: 2016-10-05 02:00:00 -0300
 author: "Humberto Salazar Pacios"
 categories: [eventos]
 ---
-Durante el día de ayer Google nos mostró una [Keynote][keynote] "especial" donde presentó sus novedades en materia de **Inteligencia Artificial**, **Software** y **Hardware**
+Durante el día de ayer Google hizo una [Keynote][keynote] "especial" donde presentó sus novedades en materia de **Inteligencia Artificial**, **Software** y **Hardware**
 
 <img class="post-image img-responsive" src="{{ '/img/posts/2016/10/made-by-google.png' | prepend: site.url }}">
 
-El inicio de la [Keynote][keynote] nos mostró a un impaciente [Dinesh][pp] siendo troleado por el clásico [Gilfoyle][pp]. Sin duda unos buenos segundos de humor, gracias Google :)
+En el inicio de la [Keynote][keynote] vimos a un impaciente [Dinesh][pp] siendo troleado por el clásico [Gilfoyle][pp]. Sin duda unos buenos segundos de humor, gracias Google :)
 
 En comparación con las Keynotes de Apple, el evento se desarrollo en un ambiente mucho más "íntimo" o casual y en mi opinión le faltó un poco de emoción. 
 Sentí varios vacíos en los momentos en que mostraban las novedades de sus productos y había poca o ninguna reacción por parte de los presentes, como cuando un comediante lanza su mejor chiste y nadie lo entiende :(
