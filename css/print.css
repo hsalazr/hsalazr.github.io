@@ -1,0 +1,39 @@
+@media print and (color) {
+    * {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+}
+
+@media print {
+    body {
+        color: #000;
+        background: #fff;
+    }
+
+    html body > .container {
+        padding: 0;
+    }
+
+    @page {
+        margin: 1.5cm 2cm 2cm 1.5cm;
+    }
+
+    section#profile {
+        border-top: 30px solid black;
+    }
+
+    section#profile h1 {
+        position: absolute;
+        top: -31px;
+        left: 15px;
+        padding: 0 10px;
+        background-color: #FFF !important;
+        width: auto;
+        text-transform: uppercase;
+
+    }
+    section#profile article .avatar{
+        display: none;
+    }
+}
