@@ -80,5 +80,14 @@ permalink: /about/
             </article>
             {% endfor %}
         </section>
+        <section id="contact-info" class="contact-info visible-print">
+            <ul class="list-unstyled ">
+                {% for slink in site.data.social_links %}
+                {% if slink.type != "rss" %}
+                <li><i class="icon icon-{{ slink.type }}"></i> {{ slink.link }}</li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </section>
     </aside>
 </div>

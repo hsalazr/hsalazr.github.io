@@ -47,7 +47,7 @@
     }
 
     .container > .row > section > h1, .container > .row > section > h1 > i,
-    .container > .row > section + aside > section > h1, .container > .row > section + aside > section > h1 > i{
+    .container > .row > section + aside > section > h1, .container > .row > section + aside > section > h1 > i {
         color: #8496af !important;
     }
 
@@ -157,5 +157,19 @@
 
     aside ul.skills-list li.skill {
         font-size: 8px;
+    }
+
+    section#contact-info {
+        border: none;
+        background: #8496af !important;
+        padding: 15px 8px 1px 8px;
+    }
+
+    section#contact-info ul li {
+        color: #FFF !important;
+        font-size: 10px;
+    }
+    section#contact-info ul li, i {
+        color: #FFF !important;
     }
 }
