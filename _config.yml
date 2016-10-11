@@ -12,6 +12,7 @@ twitter_username: hsalazar
 github_username:  hsalazr
 collections:
  - jobs
+ - jobs_en
 # Build settings
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title

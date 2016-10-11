@@ -1,0 +1,19 @@
+---
+layout: job_en
+position: "Senior Architect and Front-End Developer"
+title:  "Otus: Complete SIEM Solution"
+company: '<a href="http://www.bitsteer.com">BitSteer</a>'
+location:
+ city: "Zagreb"
+ country: "Croacia"
+ code: "hr"
+date-start: 2012
+date-end: 2013
+tags:
+ - Twitter Bootstrap 2
+ - Java
+ - Struts 2
+ - Maven
+---
+
+Created custom and highly extensible front-end web components to simplify user workflow and reduce development complexity for new features for BitSteer's SIEM Solution. (https://www.bitsteer.com/products/siem/)

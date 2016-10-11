@@ -1,0 +1,18 @@
+---
+layout: job_en
+position: "Full Stack Designer and Developer"
+title: "CANDB System"
+company: "<a href='www.bitsteer.com'>BitSteer</a>"
+location:
+ city: "Zagreb"
+ country: "Croacia"
+ code: "hr"
+date-start: 2013
+date-end: 2014
+tags:
+ - Twitter Bootstrap 3
+ - Django
+ 
+---
+
+I was on charge of design and implement an upgraded version of early detection system for colon cancer used by croatian government
