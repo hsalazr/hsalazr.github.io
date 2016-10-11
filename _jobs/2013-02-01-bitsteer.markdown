@@ -10,13 +10,7 @@ location:
 date-start: 2013
 tags:
  - Twitter Bootstrap 3
- - LESS
- - jQuery
  - Jekyll
- - Ruby
- - SVN
- - Trac
- - Git
 ---
 
 Diseño e implementación del sitio web corporativo de la empresa BitSteer.

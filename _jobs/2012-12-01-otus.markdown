@@ -11,14 +11,9 @@ date-start: 2012
 date-end: 2013
 tags:
  - Twitter Bootstrap 2
- - LESS
- - jQuery
  - Java
  - Struts 2
  - Maven
- - SVN
- - Trac
- - Git
 ---
 
 Sistema de gestión para el almacenamiento de información de servidores, aplicaciones y redes en una localización centralizada.

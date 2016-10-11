@@ -10,9 +10,6 @@ location:
 date-start: 2013
 tags:
  - Twitter Bootstrap 3
- - LESS
- - jQuery
- - PHP
  - Drupal
 ---
 

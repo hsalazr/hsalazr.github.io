@@ -8,12 +8,6 @@
     - name: CSS3
       icon: icon icon-css3
       level: 3
-    - name: jQuery
-      level: 3
-    - name: JSON
-      level: 3
-    - name: WebFonts
-      level: 3
     - name: Stylus
       level: 3
     - name: LESS
@@ -26,41 +20,23 @@
       level: 3
     - name: AngularJS
       level: 3
+    - name: React
+      level: 3
 
 - text: "He trabajado también en las capas inferiores con las tecnologías:"
   skills:
-    - name: Jekyll
-      level: 3
-    - name: Django CMS
-      level: 3
-    - name: Wordpress
-      icon: icon icon-wordpress
+    - name: Python
       level: 2
-    - name: Drupal
-      icon: icon icon-drupal
-      level: 2
-    - name: Django
-      level: 3
     - name: Node.js
       level: 2
-    - name: Express
-      level: 2
-    - name: REST
-      level: 3
-    - name: WebServices
-      level: 3
     - name: PHP
       level: 3
     - name: Java
-      level: 1
-    - name: Phalcon
-      level: 3
-    - name: Code Igniter
-      level: 3
-    - name: ASP.NET
-      level: 3
-    - name: MVC.NET
       level: 2
+    - name: Swift
+      level: 1
+    - name: .NET
+      level: 3
     - name: MySQL
       icon: icon icon-database
       level: 3
@@ -70,9 +46,19 @@
     - name: SQLite
       icon: icon icon-database
       level: 3
+    - name: MySQL
+      icon: icon icon-database
+      level: 3
+    - name: DynamoDB
+      icon: icon icon-database
+      level: 3
     - name: MongoDB
       icon: icon icon-database
       level: 2
+    - name: RabbitMQ
+      level: 3
+    - name: Docker
+      level: 3
 
 
 - text: "Domino los esquemas de trabajo basados en metodologías ágiles así como el uso de herramientas para el control de versiones como:"
@@ -83,10 +69,6 @@
     - name: Subversion
       level: 3
     - name: Microsoft TFS
-      level: 3
-    - name: Jira
-      level: 3
-    - name: Bitbucket
       level: 3
 
 - text: "Tengo experiencia en el uso, administración y monitoreo de entornos de producción basados en la nube"

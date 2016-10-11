@@ -10,15 +10,9 @@ location:
 date-start: 2012
 tags:
  - Twitter Bootstrap 2
- - LESS
- - jQuery
  - Python
  - Django
  - PHP
- - Wordpress
- - SVN
- - Trac
- - Git
 ---
 
 Servicio de administración de SMTP y gestión de campañas publicitarias por correo electrónico.

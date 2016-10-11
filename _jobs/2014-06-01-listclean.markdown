@@ -10,13 +10,8 @@ location:
 date-start: 2014
 tags:
  - Twitter Bootstrap 3
- - Stylus
- - jQuery
  - Python
  - Django
- - SVN
- - Trac
- - Git
 ---
 
 Sistema para limpieza de listas de correos.

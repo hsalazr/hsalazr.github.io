@@ -12,8 +12,8 @@ date-end: 2012
 tags:
  - HTML5
  - CSS3
- - LESS
- - jQuery
+ - JavaScript
+ - C#
  - ASP.NET
  - Microsoft Team System
 ---

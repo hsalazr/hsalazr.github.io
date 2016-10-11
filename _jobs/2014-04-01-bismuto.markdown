@@ -10,13 +10,9 @@ location:
 date-start: 2014
 tags:
  - Twitter Bootstrap 3
- - LESS
- - Stylus
- - jQuery
  - Python
  - Django
  - MySQL
- - Git
 ---
 
 Desarrollo completo de un nuevo sistema de facturación para escuelas de enseñanza media en Angola. Despliegue de la solución en los servidores de hosting. Administración y configuración de los servidores.

@@ -169,7 +169,7 @@
         color: #FFF !important;
         font-size: 10px;
     }
-    section#contact-info ul li, i {
+    section#contact-info ul li, section#contact-info ul li i {
         color: #FFF !important;
     }
 }

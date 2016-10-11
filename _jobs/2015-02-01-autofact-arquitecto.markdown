@@ -7,22 +7,15 @@ location:
  city: "Santiago RM"
  country: "Chile"
  code: "cl"
-date-start: 2015
+date-start: 2014
 date-end: "<span class='label label-success'><strong>ACTUAL</strong></span>"
 tags:
- - Twitter Bootstrap 3
- - Stylus
  - Coffee Script
- - jQuery
  - PHP
- - Code Igniter
+ - DynamoDB
+ - NodeJS
  - MySQL
- - Asana
- - Git
- - Jira
- - Bitbucket
  - Amazon Web Services
- - NewRelic
 ---
 
 Refactorización de arquitectura de productos Autofact con el objetivo de agilizar la expansión a otros países y optimizar el rendimiento de los sistemas. 
