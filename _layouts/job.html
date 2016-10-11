@@ -7,7 +7,14 @@
         <h1>{{ page.position }}</h1>
 
 
-        <h2><i class="icon icon-gears"></i> {{ page.title }}</h2>
+        <h2><i class="icon icon-gears"></i> {{ page.title }}
+            <span class="small text-muted">
+            {% for tag in page.tags %}
+            <i class="icon icon-tag"></i> {{tag}}
+            {% endfor %}
+            </span>
+        </h2>
+
 
         <p class="meta small">
             {% if page.company %}<i class="icon icon-building-o"></i> {{ page.company }}{% endif %}
@@ -24,10 +31,4 @@
     <section class="job-description">
         {{ content }}
     </section>
-
-    <!--<aside class="tags">-->
-    <!--{% for tag in page.tags %}-->
-    <!--<span class=" label label-default"><i class="icon icon-tag"></i> {{tag}}</span>-->
-    <!--{% endfor %}-->
-    <!--</aside>-->
 </article>
