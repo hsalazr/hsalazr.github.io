@@ -1,4 +1,5 @@
 - text: "Tengo amplia experiencia trabajando en UX con las tecnologías:"
+  text_en: "I have extensive experience working with these UX oriented technologies"
   skills:
     - name: Twitter Bootstrap
       level: 3
@@ -24,6 +25,7 @@
       level: 3
 
 - text: "He trabajado también en las capas inferiores con las tecnologías:"
+  text_en: "I have also worked at lower layers with technologies like:"
   skills:
     - name: Python
       level: 2
@@ -62,6 +64,7 @@
 
 
 - text: "Domino los esquemas de trabajo basados en metodologías ágiles así como el uso de herramientas para el control de versiones como:"
+  text_en: "I feel comfortable with agile worflows and source control tools like:"
   skills:
     - name: Git
       icon: icon icon-git-square
@@ -72,6 +75,7 @@
       level: 3
 
 - text: "Tengo experiencia en el uso, administración y monitoreo de entornos de producción basados en la nube"
+  text_en: "I have exprience using, managing and monitoring cloud based production environments"
   skills:
     - name: Amazon WS
       level: 3
@@ -85,6 +89,7 @@
       level: 3
 
 - text: "Trabajo sin problemas sobre los Sistemas Operativos"
+  text_en: "I work without issues over any of these OS. (but *nix ones rules)"
   skills:
     - name: OS X
       icon: icon icon-apple
@@ -97,5 +102,8 @@
       level: 3
   
 - text: Me he desempeñado como administrador de sistemas informáticos y tengo conocimientos de hardware.
+  text_en: I have worked as sysadmin and have knowledge of hardware.
 - text: Tengo aptitudes para la investigación independiente, solución de problemas, trabajo en equipo, comunicación ínter personal y frente a un auditorio.
+  text_en: I have an aptitude for independent research, problem solving, teamwork, inter-staff communication and I can speak in front of an audience
 - text: He impartido entrenamiento profesional en temáticas de desarrollo web y tecnologías relacionadas.
+  text_en: I have given professional training and consulting about web, cloud computing development and related technologies

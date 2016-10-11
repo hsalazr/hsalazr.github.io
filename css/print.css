@@ -125,12 +125,12 @@
 
     section.experiencia {
         position: absolute;
-        width: 65%;
+        width: 60%;
     }
 
     section.experiencia + aside {
         position: absolute;
-        width: 38%;
+        width: 40%;
         right: -10px;
     }
 

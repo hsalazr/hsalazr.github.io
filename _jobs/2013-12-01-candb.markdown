@@ -1,6 +1,7 @@
 ---
 layout: job
 position: "Diseñador y Desarrollador de front-end y back-end"
+position_en: "Full Stack Designer and Developer"
 title: "Sistema CANDB"
 company: "<a href='www.bitsteer.com'>BitSteer</a>"
 location:
@@ -12,6 +13,7 @@ date-end: 2014
 tags:
  - Twitter Bootstrap 3
  - Django
+en: I was on charge of design and implement an upgraded version of early detection system for colon cancer used by croatian government
 ---
 
 Actualización del sistema usado por el gobierno de Croacia como parte su programa para la detección temprana del cáncer de colon.

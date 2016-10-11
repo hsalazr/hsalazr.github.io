@@ -4,10 +4,10 @@
 <article class="job">
 
     <header class="job-header">
-        <h1>{{ page.position }}</h1>
+        <h1>{{ page.position_en }}</h1>
 
 
-        <h2><i class="icon icon-gears"></i> {{ page.title }}
+        <h2><i class="icon icon-gears"></i> {{ page.title_en }}
             <span class="small text-muted">
             {% for tag in page.tags %}
             <i class="icon icon-tag"></i> {{tag}}
@@ -29,6 +29,6 @@
     </header>
 
     <section class="job-description">
-        {{ content }}
+        {{ page.en }}
     </section>
 </article>

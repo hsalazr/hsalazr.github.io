@@ -1,0 +1,93 @@
+---
+layout: default
+permalink: /about/en/
+---
+<link rel="stylesheet" href="{{ '/css/about.css' | prepend: site.baseurl }}">
+<div class="row">
+    <section id="profile" class="col-xs-12">
+        <article>
+            <img src="/img/avatar.png" height="100px" width="100px" class="img-thumbnail avatar pull-left">
+
+            <h1>{{ site.data.personal_info.name }}</h1>
+
+            <p class="lead">{{ site.data.personal_info.description_en }}</p>
+        </article>
+
+    </section>
+</div>
+<div class="row">
+
+    <section class="experiencia col-md-8">
+        <h1><i class="icon icon-briefcase"></i> Experience</h1>
+        {% assign jobs = (site.collections[0].docs | sort: "date-start" | reverse ) %}
+        {% for job in jobs %}
+        {{job.output}}
+        {% endfor %}
+    </section>
+    <aside class="col-md-4">
+        <section class="formacion">
+            <h1><i class="icon icon-mortar-board"></i> Education</h1>
+            <article>
+                <h1>Ingenier&iacute;a en Ciencias Inform&aacute;ticas</h1>
+
+                <h2><i class="icon icon-institution"></i> <a href="http://www.uci.cu/">Universidad de las Ciencias
+                    Informáticas</a></h2>
+
+                <p class="meta small"><i class="icon icon-map-marker"></i> La Habana • <img class="flag"
+                                                                                            src="/img/flags/cu.gif ">
+                    Cuba •
+                    <i
+                            class="icon icon-calendar"></i> 2009</p>
+            </article>
+        </section>
+        <section class="idiomas">
+            <h1><i class="icon icon-language"></i> Languages</h1>
+            <article>
+                <ul class="list-unstyled skills-list row">
+                    <li class="skill col-xs-6"><img class="flag" src="/img/flags/es.gif "> Spanish
+                        <div class="skill-level icon lv3"></div>
+                    </li>
+                    <li class="skill col-xs-6"><img class="flag" src="/img/flags/gb.gif "> English
+                        <div class="skill-level icon lv2"></div>
+                    </li>
+                </ul>
+            </article>
+        </section>
+
+        <section class="habilidades">
+            <h1><i class="icon icon-magic"></i> Skills</h1>
+
+
+            {% for skill in site.data.skills %}
+            <article>
+                <p>{{ skill.text_en }}</p>
+
+                {% if skill.skills %}
+                <ul class="list-unstyled skills-list row">
+                    {% for s in skill.skills %}
+                    <li class="skill col-xs-6">
+                        {% if s.icon %}
+                        <i class="{{ s.icon}}"></i>
+                        {% else %}
+                        <i class="icon icon-tag"></i>
+                        {% endif %}
+                        {{ s.name }}
+                        <div class="skill-level icon lv{{ s.level }}"></div>
+                    </li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+            </article>
+            {% endfor %}
+        </section>
+        <section id="contact-info" class="contact-info visible-print">
+            <ul class="list-unstyled ">
+                {% for slink in site.data.social_links %}
+                {% if slink.type != "rss" %}
+                <li><i class="icon icon-{{ slink.type }}"></i> {{ slink.link }}</li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </section>
+    </aside>
+</div>

@@ -1,7 +1,9 @@
 ---
 layout: job
 position: "Diseñador y Desarrollador"
+position_en: "Designer & Developer"
 title: "BitSteer Web Site"
+title_en: "BitSteer Web Site"
 company: '<a href="http://www.bitsteer.com">BitSteer</a>'
 location:
  city: "Zagreb"
@@ -11,6 +13,7 @@ date-start: 2013
 tags:
  - Twitter Bootstrap 3
  - Jekyll
+en: Full design and development of BitSteer Corporate Web Site. 
 ---
 
 Diseño e implementación del sitio web corporativo de la empresa BitSteer.
