@@ -19,5 +19,5 @@ tags:
 ---
 
 I'm on charge of Autofact's new products architecture definition and refactoring of legacy ones aiming to optimize overall system performance, service quality, cost reduction, include new features and international expansion. 
-I'm also involved on development integration and deployment over AWS Cloud infrastructure and I manage a 4 developers team.
+I'm also involved on development integration and deployment over AWS Cloud infrastructure and I lead a 4 developers team.
 

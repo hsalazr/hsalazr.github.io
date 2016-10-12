@@ -15,4 +15,4 @@ tags:
  
 ---
 
-I was on charge of design and implement an upgraded version of early detection system for colon cancer used by croatian government
+I was on charge of design and implement an upgraded version of early detection system for colon cancer used by croatian government.

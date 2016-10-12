@@ -1,8 +1,8 @@
 {
     "name": "Humberto Salazar Pacios",
     "profession": "Ingeniero Informático",
-    "description": "Más de <strong>6 años</strong> trabajando en el <strong>Diseño</strong>, <strong>Desarrollo</strong>, <strong>Despliegue</strong>, <strong>Explotación</strong> y <strong>Optimización</strong> de <strong>Soluciones Web</strong>. Desde la concepción de <strong>Arquitectura</strong>, configuración de <strong>Servidores</strong> hasta la <strong>Implementación</strong> de todas las capas de la Aplicación",
-    "description_en": "More than <strong>6 years</strong> working on <strong>design</strong>, <strong>development</strong>, <strong>deployment</strong> and <strong>optimization</strong> of web and cloud based solutions. From architecture definition and servers configuration to full stack implementation",
+    "description": "Más de <strong>6 años</strong> trabajando en el <strong>Diseño</strong>, <strong>Desarrollo</strong>, <strong>Despliegue</strong>, <strong>Explotación</strong> y <strong>Optimización</strong> de <strong>Soluciones Web</strong>. Desde la concepción de <strong>Arquitectura</strong>, configuración de <strong>Servidores</strong> hasta la <strong>Implementación</strong> de todas las capas de la Aplicación.",
+    "description_en": "More than <strong>6 years</strong> working on <strong>design</strong>, <strong>development</strong>, <strong>deployment</strong> and <strong>optimization</strong> of web and cloud based solutions. From architecture definition and servers configuration to full stack implementation.",
     "location": {
         "country" :{
             "name":"Cuba",

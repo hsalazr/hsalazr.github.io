@@ -19,4 +19,4 @@ tags:
 ---
 
 Process oriented platform, designed and developed as cuban e-government core system. 
-It's now country wide deployed and is used for cubans personal ids and password emission and other identification related processes.
+It's now country wide deployed and is used for cubans personal ids and passport emission and other identification related processes.
