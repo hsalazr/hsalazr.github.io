@@ -7,5 +7,5 @@
   {
    return "DIRECT";
   }
- 	return "SOCKS 10.252.3.49:3128; DIRECT";
+ 	return "SOCKS 10.252.158.75:3128; DIRECT";
  }
