@@ -11,12 +11,12 @@
         "city": "La Habana"
     },
     "job":{
-        "title": "Full Stack Web Developer",
+        "title": "Cloud Engineer SSr. Adv. & DevOps ",
         "join": "en",
         "company":{
-            "name":"Autofact Chile SpA",
-            "url": "http://www.autofact.cl",
-            "logo": "autofact.png"
+            "name":"Globant",
+            "url": "http://www.globant.com",
+            "logo": ""
         }
 
     }

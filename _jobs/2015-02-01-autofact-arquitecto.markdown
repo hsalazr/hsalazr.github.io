@@ -4,13 +4,13 @@ position: "Arquitecto y Desarrollador"
 position_en: "Solution Architect & Developer"
 title: "Autofact"
 title_en: "Autofact"
-company: "<a href='http://www.autofact.cl' />Autofact SpA</a>"
+company: "<a href='http://www.autofact.cl' >Autofact SpA</a>"
 location:
  city: "Santiago RM"
  country: "Chile"
  code: "cl"
 date-start: 2014
-date-end: "<span class='label label-success'><strong>ACTUAL</strong></span>"
+date-end: 2017
 tags:
  - Coffee Script
  - PHP

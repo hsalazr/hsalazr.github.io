@@ -17,12 +17,10 @@
       level: 3
     - name: Scss
       level: 3
-    - name: Coffee Script
-      level: 3
     - name: AngularJS
-      level: 3
+      level: 2
     - name: React
-      level: 3
+      level: 2
 
 - text: "He trabajado también en las capas inferiores con las tecnologías:"
   text_en: "I have also worked at lower layers with technologies like:"
@@ -81,11 +79,21 @@
       level: 3
     - name: New Relic
       level: 3
-    - name: Google WDT
+    - name: AWS Cloud Formation
       level: 3
-    - name: Google Analytics
+    - name: AWS ECS
       level: 3
-    - name: Google Apps
+    - name: AWS Lambda
+      level: 3
+    - name: AWS CodePipelines
+      level: 3
+    - name: AWS CodeCommit
+      level: 3
+    - name: AWS CodeBuild
+      level: 3
+    - name: AWS CloudFront
+      level: 3
+    - name: AWS LoadBalancer
       level: 3
 
 - text: "Trabajo sin problemas sobre los Sistemas Operativos"
