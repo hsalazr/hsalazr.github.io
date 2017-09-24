@@ -14,15 +14,7 @@ date-end: "<span class='label label-success'><strong>ACTUAL</strong></span>"
 tags:
  - Amazon Web Services
  - Docker
- - Amazon Cloud Formation
  - NodeJS
- - Amazon ECS
- - Amazon Code Pipelines
- - Amazon Code Build
- - GitHub API
- - Amazon WAF
- - Anazon KMS
- - Amazon Lambda
  - MongoDB
 en: ...
 ---
