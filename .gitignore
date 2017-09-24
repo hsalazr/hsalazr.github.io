@@ -2,3 +2,4 @@ _site/
 _config-dev.yml
 serve.sh
 /.sass-cache/
+.DS_Store
