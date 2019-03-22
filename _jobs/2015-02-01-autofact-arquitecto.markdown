@@ -21,5 +21,5 @@ tags:
 en: I'm on charge of Autofact's new products architecture definition and refactoring of legacy ones aiming to optimize overall system performance, service quality, cost reduction, include new features and international expansion. I'm also involved on development integration and deployment over AWS Cloud infrastructure and I manage a 4 developers team. 
 ---
 
-Refactorización de arquitectura de productos Autofact con el objetivo de agilizar la expansión a otros países y optimizar el rendimiento de los sistemas. 
-Integración de desarrollos, despliegue y administración de infraestructura para producción, monitoreo de estado de servicios y organización del proceso de desarrollo.
+Refactorización de arquitectura de productos Autofact con el objetivo de agilizar la expansión a otros países y optimizar el rendimiento de los sistemas.
+Integración de desarrollos, despliegue y administración de infraestructura para producción en AWS, monitoreo de estado de servicios y organización del proceso de desarrollo.

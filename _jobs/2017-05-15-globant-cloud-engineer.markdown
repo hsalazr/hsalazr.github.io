@@ -10,7 +10,7 @@ location:
  country: "Chile"
  code: "cl"
 date-start: 2017
-date-end: "<span class='label label-success'><strong>ACTUAL</strong></span>"
+date-end: 2018
 tags:
  - Amazon Web Services
  - Docker
@@ -18,5 +18,4 @@ tags:
  - MongoDB
 en: ...
 ---
-
-...
+Cloud Engineer & DevOps Technical Lead para el producto MACH del Banco BCI. Definción e implementación de arquitectura cloud y sistemas de integración y despliegue continuos
