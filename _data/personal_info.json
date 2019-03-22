@@ -1,8 +1,8 @@
 {
     "name": "Humberto Salazar Pacios",
     "profession": "Ingeniero Informático",
-    "description": "Más de <strong>8 años</strong> trabajando en el <strong>Diseño</strong>, <strong>Desarrollo</strong>, <strong>Despliegue</strong>, <strong>Explotación</strong> y <strong>Optimización</strong> de <strong>Soluciones Web y Cloud</strong>. Definición de <strong>Arquitectura</strong>, configuración de <strong>Infraestructua</strong> automatización de procesos <strong>CI/CD</strong>.",
-    "description_en": "More than <strong>8 years</strong> working on <strong>design</strong>, <strong>development</strong>, <strong>deployment</strong> and <strong>optimization</strong> of web and cloud based solutions. Architecture definition and servers configuration",
+    "description": "Más de <strong>9 años</strong> trabajando en el <strong>Diseño</strong>, <strong>Desarrollo</strong>, <strong>Despliegue</strong>, <strong>Explotación</strong> y <strong>Optimización</strong> de <strong>Soluciones Web y Cloud</strong>. Definición de <strong>Arquitectura</strong>, configuración de <strong>Infraestructua AWS</strong> y automatización de procesos <strong>CI/CD</strong>.",
+    "description_en": "More than <strong>9 years</strong> working on <strong>design</strong>, <strong>development</strong>, <strong>deployment</strong> and <strong>optimization</strong> of web and cloud based solutions. Architecture definition and servers configuration",
     "location": {
         "country" :{
             "name":"Chile",
